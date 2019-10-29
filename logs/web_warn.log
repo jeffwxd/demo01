@@ -1,0 +1,4 @@
+2019-10-29 15:26:21.106 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-10-29 15:26:33.176 [http-nio-8090-exec-1] WARN  com.example.demo01.service.impl.SessionServiceImpl - warn级别的日志
+2019-10-29 15:30:35.491 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-10-29 15:30:45.678 [http-nio-8090-exec-1] WARN  com.example.demo01.service.impl.SessionServiceImpl - warn级别的日志

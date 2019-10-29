@@ -1,5 +1,7 @@
 package com.example.demo01.resolvers;
 
+import com.example.demo01.exception.CommonExceptionConstants;
+import com.example.demo01.exception.ServiceException;
 import com.example.demo01.jwt.provider.JwtTokenProvider;
 import com.example.demo01.jwt.provider.Payload;
 import io.jsonwebtoken.Claims;
@@ -13,7 +15,7 @@ public class ContextResolverUtil {
 
     public static <T extends Payload> T doResolveContext(JwtTokenProvider jwtTokenProvider, Class<T> parameterType, String name, String jwtToken) {
         if (StringUtils.isEmpty(jwtToken)) {
-            /*throw ServiceException.build(CommonExceptionConstants.UNLOGIN_ERROR);*/
+            throw ServiceException.build(CommonExceptionConstants.UNLOGIN_ERROR);
         }
 
         if (parameterType.isPrimitive() && !parameterType.equals(String.class)) {
@@ -30,8 +32,7 @@ public class ContextResolverUtil {
                 return jwtTokenProvider.parseJwtToken(jwtToken, parameterType);
             }
         } catch (Exception e) {
-            /*throw ServiceException.build(CommonExceptionConstants.TOKEN_NOT_VALID);*/
-            throw new RuntimeException();
+            throw ServiceException.build(CommonExceptionConstants.TOKEN_NOT_VALID);
         }
     }
 }

@@ -1,8 +1,8 @@
-/*
 package com.example.demo01.filter;
 
 import org.apache.commons.lang.StringUtils;
 import org.springframework.core.annotation.Order;
+import org.springframework.stereotype.Component;
 import org.springframework.web.filter.OncePerRequestFilter;
 
 import javax.servlet.FilterChain;
@@ -12,15 +12,15 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-*/
 /**
  * 获取ip
  *
  * @author yangsui
- *//*
+ */
 
 @Order(1)
 @WebFilter(filterName = "RemoteIpFilter", urlPatterns = "/*")
+@Component
 public class RemoteIpFilter extends OncePerRequestFilter {
 
     public static final String REMOTE_IP = "remoteIp";
@@ -38,8 +38,7 @@ public class RemoteIpFilter extends OncePerRequestFilter {
         response.setHeader("Access-Control-Allow-Credentials", "true");
         response.setHeader("Access-Control-Allow-Methods", "POST, GET, OPTIONS, DELETE");
         response.setHeader("Access-Control-Max-Age", "3600");
-        response.setHeader("Access-Control-Allow-Headers", "Content-Type, Accept, X-Requested-With, remember-me");
-
+        response.setHeader("Access-Control-Allow-Headers", "Content-Type, Accept, X-Requested-With, remember-me,Authorization");
         filterChain.doFilter(request, response);
     }
 
@@ -71,4 +70,3 @@ public class RemoteIpFilter extends OncePerRequestFilter {
     }
 
 }
-*/
