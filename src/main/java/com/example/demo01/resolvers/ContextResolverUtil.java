@@ -26,6 +26,7 @@ public class ContextResolverUtil {
             //对称解密
             if (parameterType.equals(String.class)) {
 
+
                 Jws<Claims> claimsJws = jwtTokenProvider.parseJwtToken(jwtToken);
                 return (T) claimsJws.getBody().get(name);
             } else {
