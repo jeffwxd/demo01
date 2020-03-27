@@ -4,6 +4,8 @@ import lombok.Data;
 import lombok.experimental.FieldNameConstants;
 
 import javax.persistence.*;
+import java.io.Serializable;
+import java.util.Date;
 
 /**
  * @author wxd
@@ -12,23 +14,27 @@ import javax.persistence.*;
 @Data
 @Entity
 @FieldNameConstants
-@Table(name = "sys_user")
-public class SysUserEntity {
+@Table(name = "t_user")
+public class SysUserEntity implements Serializable {
 
-    @Id
+    private static final long serialVersionUID = -4352868070794165001L;
+
+
+    /**
+     * 用户 ID
+     */
     @GeneratedValue(strategy=GenerationType.IDENTITY)
-    private Long id;
+    @Id
+    private Long userId;
 
-    @Column(name = "user_name")
+    /**
+     * 用户名
+     */
     private String userName;
 
+    /**
+     * 密码
+     */
     private String password;
 
-    @Column(name = "create_time")
-    private String createdTime;
-
-    @Column(name = "update_time")
-    private String updateTime;
-
-    private Boolean state;
 }

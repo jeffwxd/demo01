@@ -26,7 +26,6 @@ import java.util.UUID;
 //@ConditionalOnBean(name = "jwtConfig")
 public class JwtTokenProvider {
 
-
     public static final String MODULE = "module";
 
     @Autowired

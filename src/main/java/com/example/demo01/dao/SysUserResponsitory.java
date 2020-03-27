@@ -1,7 +1,6 @@
 package com.example.demo01.dao;
 
 import com.example.demo01.entity.SysUserEntity;
-import com.example.demo01.model.AdminLoginRequest;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.JpaSpecificationExecutor;
 import org.springframework.stereotype.Repository;
@@ -17,7 +16,7 @@ public interface SysUserResponsitory  extends JpaRepository<SysUserEntity,Long>,
      * 用户登录认证
      * @return
      */
-    SysUserEntity findSysUserEntityByUserNameAndPasswordAndStateTrue(String userName,String password);
+    SysUserEntity findSysUserEntityByUserNameAndPassword(String userName,String password);
 
 
 }
