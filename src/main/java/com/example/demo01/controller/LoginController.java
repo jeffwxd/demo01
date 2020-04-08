@@ -39,7 +39,7 @@ public class LoginController {
     }
     @PostMapping("/view")
     @ApiOperation("用户列表")
-    @RequiresPermissions("user:view")
+    //@RequiresPermissions("user:view")
     public String  getList(AdminSessionContext adminSessionContext){
         return adminSessionContext.getUserName();
     }
