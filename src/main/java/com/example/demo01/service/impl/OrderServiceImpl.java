@@ -52,4 +52,10 @@ public class OrderServiceImpl implements OrderService {
         });
         return Pagination.build(result, entityPage.getTotalElements());
     }
+
+    @Override
+    public List<String> getList() {
+
+        return null;
+    }
 }

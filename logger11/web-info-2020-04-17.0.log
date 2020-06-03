@@ -1,0 +1,1055 @@
+2020-04-17 14:29:12.239 [main] INFO  com.example.demo01.Demo01Application - Starting Demo01Application on DESKTOP-9CKSNF3 with PID 11908 (D:\demo01\target\classes started by Agrivo in D:\demo01)
+2020-04-17 14:29:12.278 [main] INFO  com.example.demo01.Demo01Application - No active profile set, falling back to default profiles: default
+2020-04-17 14:29:13.633 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-04-17 14:29:13.742 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 95ms. Found 2 repository interfaces.
+2020-04-17 14:29:14.026 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'shiroConfig' of type [com.example.demo01.shiro.ShiroConfig$$EnhancerBySpringCGLIB$$dce8f6ce] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-17 14:29:14.385 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'myRealm' of type [com.example.demo01.shiro.ShiroRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-17 14:29:14.389 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-17 14:29:14.413 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-17 14:29:14.466 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$9e586e4c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-17 14:29:14.589 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$1dd8bb7e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-17 14:29:15.028 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
+2020-04-17 14:29:15.040 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+2020-04-17 14:29:15.046 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-17 14:29:15.046 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.14]
+2020-04-17 14:29:15.051 [main] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_161\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Java\jdk1.8.0_161\bin;D:\Java\apache-maven-3.3.9\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\MySQL\MySQL Server 5.5\bin;C:\Program Files\TortoiseSVN\bin;C:\Users\Agrivo\AppData\Local\Microsoft\WindowsApps;;.]
+2020-04-17 14:29:15.318 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-04-17 14:29:15.319 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2946 ms
+2020-04-17 14:29:15.515 [main] INFO  org.flywaydb.core.internal.license.VersionPrinter - Flyway Community Edition 5.2.4 by Boxfuse
+2020-04-17 14:29:15.517 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-04-17 14:29:15.591 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-04-17 14:29:15.593 [main] INFO  o.flywaydb.core.internal.database.DatabaseFactory - Database: jdbc:mysql://127.0.0.1:3306/shiro_test (MySQL 5.5)
+2020-04-17 14:29:15.644 [main] INFO  org.flywaydb.core.internal.command.DbValidate - Successfully validated 0 migrations (execution time 00:00.004s)
+2020-04-17 14:29:15.823 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2020-04-17 14:29:15.827 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2020-04-17 14:29:15.829 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2020-04-17 14:29:15.837 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-04-17 14:39:44.204 [main] INFO  com.example.demo01.Demo01Application - Starting Demo01Application on DESKTOP-9CKSNF3 with PID 4016 (D:\demo01\target\classes started by Agrivo in D:\demo01)
+2020-04-17 14:39:44.206 [main] INFO  com.example.demo01.Demo01Application - No active profile set, falling back to default profiles: default
+2020-04-17 14:39:44.875 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-04-17 14:39:44.931 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 51ms. Found 2 repository interfaces.
+2020-04-17 14:39:45.149 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'shiroConfig' of type [com.example.demo01.shiro.ShiroConfig$$EnhancerBySpringCGLIB$$cd7aaed2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-17 14:39:45.348 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'myRealm' of type [com.example.demo01.shiro.ShiroRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-17 14:39:45.351 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-17 14:39:45.374 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-17 14:39:45.410 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$8eea2650] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-17 14:39:45.483 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$e6a7382] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-17 14:39:45.826 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
+2020-04-17 14:39:45.836 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+2020-04-17 14:39:45.841 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-17 14:39:45.841 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.14]
+2020-04-17 14:39:45.846 [main] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_161\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Java\jdk1.8.0_161\bin;D:\Java\apache-maven-3.3.9\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\MySQL\MySQL Server 5.5\bin;C:\Program Files\TortoiseSVN\bin;C:\Users\Agrivo\AppData\Local\Microsoft\WindowsApps;;.]
+2020-04-17 14:39:45.929 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-04-17 14:39:45.929 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1688 ms
+2020-04-17 14:39:46.107 [main] INFO  org.flywaydb.core.internal.license.VersionPrinter - Flyway Community Edition 5.2.4 by Boxfuse
+2020-04-17 14:39:46.109 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-04-17 14:39:46.193 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-04-17 14:39:46.195 [main] INFO  o.flywaydb.core.internal.database.DatabaseFactory - Database: jdbc:mysql://127.0.0.1:3306/shiro_test (MySQL 5.5)
+2020-04-17 14:39:46.245 [main] INFO  org.flywaydb.core.internal.command.DbValidate - Successfully validated 0 migrations (execution time 00:00.004s)
+2020-04-17 14:39:46.315 [main] INFO  o.f.c.i.schemahistory.JdbcTableSchemaHistory - Creating Schema History table: `shiro_test`.`flyway_schema_history`
+2020-04-17 14:39:46.675 [main] INFO  org.flywaydb.core.internal.command.DbBaseline - Successfully baselined schema with version: 20190923105701
+2020-04-17 14:39:46.699 [main] INFO  org.flywaydb.core.internal.command.DbMigrate - Current version of schema `shiro_test`: 20190923105701
+2020-04-17 14:39:46.700 [main] INFO  org.flywaydb.core.internal.command.DbMigrate - Schema `shiro_test` is up to date. No migration necessary.
+2020-04-17 14:39:46.976 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-04-17 14:39:47.071 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.3.7.Final}
+2020-04-17 14:39:47.072 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2020-04-17 14:39:47.332 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2020-04-17 14:39:47.514 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-04-17 14:39:48.672 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-17 14:39:50.116 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-17 14:39:50.234 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2020-04-17 14:39:50.549 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-04-17 14:39:50.565 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found {0} custom documentation plugin(s)
+2020-04-17 14:39:50.572 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-04-17 14:39:50.575 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method downloadModel01 was whpxxsz-controller
+2020-04-17 14:39:50.577 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Request mapping: downloadModel01 belongs to groups: [[ResourceGroup{groupName='whpxxsz-controller', position=0, controller=com.example.demo01.controller.WhpxxszController}]] 
+2020-04-17 14:39:50.577 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method downloadModel was whpxxsz-controller
+2020-04-17 14:39:50.577 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Request mapping: downloadModel belongs to groups: [[ResourceGroup{groupName='whpxxsz-controller', position=0, controller=com.example.demo01.controller.WhpxxszController}]] 
+2020-04-17 14:39:50.578 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method downloadFile was whpxxsz-controller
+2020-04-17 14:39:50.578 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Request mapping: downloadFile belongs to groups: [[ResourceGroup{groupName='whpxxsz-controller', position=0, controller=com.example.demo01.controller.WhpxxszController}]] 
+2020-04-17 14:39:50.578 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method getList was order-controller
+2020-04-17 14:39:50.578 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Request mapping: getList belongs to groups: [[ResourceGroup{groupName='order-controller', position=0, controller=com.example.demo01.controller.OrderController}]] 
+2020-04-17 14:39:50.578 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method index was order-controller
+2020-04-17 14:39:50.578 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Request mapping: index belongs to groups: [[ResourceGroup{groupName='order-controller', position=0, controller=com.example.demo01.controller.OrderController}]] 
+2020-04-17 14:39:50.579 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method createSession was 用户登录接口
+2020-04-17 14:39:50.580 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Request mapping: createSession belongs to groups: [[ResourceGroup{groupName='用户登录接口', position=0, controller=com.example.demo01.controller.LoginController}]] 
+2020-04-17 14:39:50.580 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method getList was 用户登录接口
+2020-04-17 14:39:50.580 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Request mapping: getList belongs to groups: [[ResourceGroup{groupName='用户登录接口', position=0, controller=com.example.demo01.controller.LoginController}]] 
+2020-04-17 14:39:50.583 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Created resource listing Path: /default/whpxxsz-controller Description: whpxxsz-controller Position: 0
+2020-04-17 14:39:50.584 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Created resource listing Path: /default/用户登录接口 Description: 用户登录接口 Position: 0
+2020-04-17 14:39:50.585 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Created resource listing Path: /default/order-controller Description: order-controller Position: 0
+2020-04-17 14:39:50.602 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.example.demo01.page.Pagination<com.example.demo01.model.OrderBo>(true)
+2020-04-17 14:39:50.602 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key com.example.demo01.page.Pagination<com.example.demo01.model.OrderBo>(true)
+2020-04-17 14:39:50.606 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.example.demo01.page.Pagination<com.example.demo01.model.OrderBo>(true)
+2020-04-17 14:39:50.606 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.example.demo01.page.Pagination<com.example.demo01.model.OrderBo>(true)
+2020-04-17 14:39:50.632 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.example.demo01.page.Pagination<com.example.demo01.model.OrderBo>(true)
+2020-04-17 14:39:50.632 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key com.example.demo01.page.Pagination<com.example.demo01.model.OrderBo>(true)
+2020-04-17 14:39:50.634 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.example.demo01.model.OrderBo(true)
+2020-04-17 14:39:50.635 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.example.demo01.model.OrderBo(true)
+2020-04-17 14:39:50.640 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.example.demo01.page.Pagination<com.example.demo01.model.OrderBo>(true)
+2020-04-17 14:39:50.641 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.example.demo01.page.Pagination<com.example.demo01.model.OrderBo>(true)
+2020-04-17 14:39:50.641 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.example.demo01.model.OrderBo(true)
+2020-04-17 14:39:50.641 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.example.demo01.model.OrderBo(true)
+2020-04-17 14:39:50.642 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.example.demo01.model.OrderBo(true)
+2020-04-17 14:39:50.642 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.example.demo01.model.OrderBo(true)
+2020-04-17 14:39:50.644 [main] INFO  s.documentation.spring.web.OperationsKeyGenerator - Cache key generated: /order/detail.com.example.demo01.controller.OrderController.getList.DefaultGenericTypeNamingStrategy
+2020-04-17 14:39:50.644 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache operations with key /order/detail.com.example.demo01.controller.OrderController.getList.DefaultGenericTypeNamingStrategy
+2020-04-17 14:39:50.658 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method getList was order-controller
+2020-04-17 14:39:50.680 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method getList was order-controller
+2020-04-17 14:39:50.686 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: java.lang.String(true)
+2020-04-17 14:39:50.686 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key java.lang.String(true)
+2020-04-17 14:39:50.686 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: java.lang.String(true)
+2020-04-17 14:39:50.687 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key java.lang.String(true)
+2020-04-17 14:39:50.687 [main] INFO  s.documentation.spring.web.OperationsKeyGenerator - Cache key generated: /order/index.com.example.demo01.controller.OrderController.index.DefaultGenericTypeNamingStrategy
+2020-04-17 14:39:50.687 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache operations with key /order/index.com.example.demo01.controller.OrderController.index.DefaultGenericTypeNamingStrategy
+2020-04-17 14:39:50.688 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method index was order-controller
+2020-04-17 14:39:50.688 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method index was order-controller
+2020-04-17 14:39:50.692 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: java.lang.String(true)
+2020-04-17 14:39:50.692 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key java.lang.String(true)
+2020-04-17 14:39:50.692 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: java.lang.String(true)
+2020-04-17 14:39:50.692 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key java.lang.String(true)
+2020-04-17 14:39:50.692 [main] INFO  s.documentation.spring.web.OperationsKeyGenerator - Cache key generated: /api/download.com.example.demo01.controller.WhpxxszController.downloadFile.DefaultGenericTypeNamingStrategy
+2020-04-17 14:39:50.692 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache operations with key /api/download.com.example.demo01.controller.WhpxxszController.downloadFile.DefaultGenericTypeNamingStrategy
+2020-04-17 14:39:50.693 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method downloadFile was whpxxsz-controller
+2020-04-17 14:39:50.693 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method downloadFile was whpxxsz-controller
+2020-04-17 14:39:50.694 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: java.lang.Object(true)
+2020-04-17 14:39:50.694 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key java.lang.Object(true)
+2020-04-17 14:39:50.694 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: java.lang.Object(true)
+2020-04-17 14:39:50.694 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key java.lang.Object(true)
+2020-04-17 14:39:50.694 [main] INFO  s.documentation.spring.web.OperationsKeyGenerator - Cache key generated: /api/downloadWhpModel.com.example.demo01.controller.WhpxxszController.downloadModel.DefaultGenericTypeNamingStrategy
+2020-04-17 14:39:50.694 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache operations with key /api/downloadWhpModel.com.example.demo01.controller.WhpxxszController.downloadModel.DefaultGenericTypeNamingStrategy
+2020-04-17 14:39:50.695 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method downloadModel was whpxxsz-controller
+2020-04-17 14:39:50.695 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method downloadModel was whpxxsz-controller
+2020-04-17 14:39:50.696 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.example.demo01.utils.Download(true)
+2020-04-17 14:39:50.696 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key com.example.demo01.utils.Download(true)
+2020-04-17 14:39:50.696 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.example.demo01.utils.Download(true)
+2020-04-17 14:39:50.696 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.example.demo01.utils.Download(true)
+2020-04-17 14:39:50.698 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.example.demo01.utils.Download(true)
+2020-04-17 14:39:50.698 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key com.example.demo01.utils.Download(true)
+2020-04-17 14:39:50.698 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.example.demo01.utils.Download(true)
+2020-04-17 14:39:50.698 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.example.demo01.utils.Download(true)
+2020-04-17 14:39:50.698 [main] INFO  s.documentation.spring.web.OperationsKeyGenerator - Cache key generated: /api/downloadWhpModel01.com.example.demo01.controller.WhpxxszController.downloadModel01.DefaultGenericTypeNamingStrategy
+2020-04-17 14:39:50.698 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache operations with key /api/downloadWhpModel01.com.example.demo01.controller.WhpxxszController.downloadModel01.DefaultGenericTypeNamingStrategy
+2020-04-17 14:39:50.699 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method downloadModel01 was whpxxsz-controller
+2020-04-17 14:39:50.699 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method downloadModel01 was whpxxsz-controller
+2020-04-17 14:39:50.701 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: java.lang.String(true)
+2020-04-17 14:39:50.701 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key java.lang.String(true)
+2020-04-17 14:39:50.701 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: java.lang.String(true)
+2020-04-17 14:39:50.701 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key java.lang.String(true)
+2020-04-17 14:39:50.701 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.example.demo01.model.AdminLoginRequest(false)
+2020-04-17 14:39:50.701 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key com.example.demo01.model.AdminLoginRequest(false)
+2020-04-17 14:39:50.701 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.example.demo01.model.AdminLoginRequest(false)
+2020-04-17 14:39:50.701 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.example.demo01.model.AdminLoginRequest(false)
+2020-04-17 14:39:50.703 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.example.demo01.model.AdminLoginRequest(false)
+2020-04-17 14:39:50.703 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key com.example.demo01.model.AdminLoginRequest(false)
+2020-04-17 14:39:50.703 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.example.demo01.model.AdminLoginRequest(false)
+2020-04-17 14:39:50.703 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.example.demo01.model.AdminLoginRequest(false)
+2020-04-17 14:39:50.703 [main] INFO  s.documentation.spring.web.OperationsKeyGenerator - Cache key generated: /user/create.com.example.demo01.controller.LoginController.createSession.DefaultGenericTypeNamingStrategy
+2020-04-17 14:39:50.703 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache operations with key /user/create.com.example.demo01.controller.LoginController.createSession.DefaultGenericTypeNamingStrategy
+2020-04-17 14:39:50.704 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method createSession was 用户登录接口
+2020-04-17 14:39:50.704 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method createSession was 用户登录接口
+2020-04-17 14:39:50.705 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: java.lang.String(true)
+2020-04-17 14:39:50.705 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key java.lang.String(true)
+2020-04-17 14:39:50.706 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: java.lang.String(true)
+2020-04-17 14:39:50.706 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key java.lang.String(true)
+2020-04-17 14:39:50.706 [main] INFO  s.documentation.spring.web.OperationsKeyGenerator - Cache key generated: /user/view.com.example.demo01.controller.LoginController.getList.DefaultGenericTypeNamingStrategy
+2020-04-17 14:39:50.706 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache operations with key /user/view.com.example.demo01.controller.LoginController.getList.DefaultGenericTypeNamingStrategy
+2020-04-17 14:39:50.707 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method getList was 用户登录接口
+2020-04-17 14:39:50.708 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method getList was 用户登录接口
+2020-04-17 14:39:50.718 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+2020-04-17 14:39:50.745 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8090 (http) with context path ''
+2020-04-17 14:39:50.746 [main] INFO  com.example.demo01.Demo01Application - Started Demo01Application in 6.961 seconds (JVM running for 7.59)
+2020-04-17 14:49:42.168 [Thread-16] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-17 14:49:42.171 [Thread-16] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-04-17 14:49:42.173 [Thread-16] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2020-04-17 14:49:42.176 [Thread-16] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2020-04-17 14:49:44.639 [main] INFO  com.example.demo01.Demo01Application - Starting Demo01Application on DESKTOP-9CKSNF3 with PID 5800 (D:\demo01\target\classes started by Agrivo in D:\demo01)
+2020-04-17 14:49:44.641 [main] INFO  com.example.demo01.Demo01Application - No active profile set, falling back to default profiles: default
+2020-04-17 14:49:45.318 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-04-17 14:49:45.376 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 53ms. Found 2 repository interfaces.
+2020-04-17 14:49:45.597 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'shiroConfig' of type [com.example.demo01.shiro.ShiroConfig$$EnhancerBySpringCGLIB$$68b36aa0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-17 14:49:45.797 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'myRealm' of type [com.example.demo01.shiro.ShiroRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-17 14:49:45.800 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-17 14:49:45.822 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-17 14:49:45.859 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$2a22e21e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-17 14:49:45.933 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$a9a32f50] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-17 14:49:46.285 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
+2020-04-17 14:49:46.294 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+2020-04-17 14:49:46.300 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-17 14:49:46.300 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.14]
+2020-04-17 14:49:46.305 [main] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_161\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Java\jdk1.8.0_161\bin;D:\Java\apache-maven-3.3.9\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\MySQL\MySQL Server 5.5\bin;C:\Program Files\TortoiseSVN\bin;C:\Users\Agrivo\AppData\Local\Microsoft\WindowsApps;;.]
+2020-04-17 14:49:46.394 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-04-17 14:49:46.394 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1717 ms
+2020-04-17 14:49:46.580 [main] INFO  org.flywaydb.core.internal.license.VersionPrinter - Flyway Community Edition 5.2.4 by Boxfuse
+2020-04-17 14:49:46.581 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-04-17 14:49:46.661 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-04-17 14:49:46.663 [main] INFO  o.flywaydb.core.internal.database.DatabaseFactory - Database: jdbc:mysql://127.0.0.1:3306/shiro_test (MySQL 5.5)
+2020-04-17 14:49:46.740 [main] INFO  org.flywaydb.core.internal.command.DbValidate - Successfully validated 2 migrations (execution time 00:00.026s)
+2020-04-17 14:49:46.745 [main] INFO  org.flywaydb.core.internal.command.DbMigrate - Current version of schema `shiro_test`: 20190923105701
+2020-04-17 14:49:46.746 [main] INFO  org.flywaydb.core.internal.command.DbMigrate - Schema `shiro_test` is up to date. No migration necessary.
+2020-04-17 14:49:46.849 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-04-17 14:49:46.902 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.3.7.Final}
+2020-04-17 14:49:46.903 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2020-04-17 14:49:47.001 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2020-04-17 14:49:47.117 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-04-17 14:49:47.742 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-17 14:49:49.000 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-17 14:49:49.105 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2020-04-17 14:49:49.370 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-04-17 14:49:49.382 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found {0} custom documentation plugin(s)
+2020-04-17 14:49:49.388 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-04-17 14:49:49.391 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method downloadModel01 was whpxxsz-controller
+2020-04-17 14:49:49.392 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Request mapping: downloadModel01 belongs to groups: [[ResourceGroup{groupName='whpxxsz-controller', position=0, controller=com.example.demo01.controller.WhpxxszController}]] 
+2020-04-17 14:49:49.393 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method downloadModel was whpxxsz-controller
+2020-04-17 14:49:49.393 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Request mapping: downloadModel belongs to groups: [[ResourceGroup{groupName='whpxxsz-controller', position=0, controller=com.example.demo01.controller.WhpxxszController}]] 
+2020-04-17 14:49:49.393 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method downloadFile was whpxxsz-controller
+2020-04-17 14:49:49.393 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Request mapping: downloadFile belongs to groups: [[ResourceGroup{groupName='whpxxsz-controller', position=0, controller=com.example.demo01.controller.WhpxxszController}]] 
+2020-04-17 14:49:49.394 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method getList was order-controller
+2020-04-17 14:49:49.394 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Request mapping: getList belongs to groups: [[ResourceGroup{groupName='order-controller', position=0, controller=com.example.demo01.controller.OrderController}]] 
+2020-04-17 14:49:49.394 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method index was order-controller
+2020-04-17 14:49:49.394 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Request mapping: index belongs to groups: [[ResourceGroup{groupName='order-controller', position=0, controller=com.example.demo01.controller.OrderController}]] 
+2020-04-17 14:49:49.394 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method createSession was 用户登录接口
+2020-04-17 14:49:49.394 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Request mapping: createSession belongs to groups: [[ResourceGroup{groupName='用户登录接口', position=0, controller=com.example.demo01.controller.LoginController}]] 
+2020-04-17 14:49:49.394 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method getList was 用户登录接口
+2020-04-17 14:49:49.395 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Request mapping: getList belongs to groups: [[ResourceGroup{groupName='用户登录接口', position=0, controller=com.example.demo01.controller.LoginController}]] 
+2020-04-17 14:49:49.397 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Created resource listing Path: /default/whpxxsz-controller Description: whpxxsz-controller Position: 0
+2020-04-17 14:49:49.398 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Created resource listing Path: /default/order-controller Description: order-controller Position: 0
+2020-04-17 14:49:49.399 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Created resource listing Path: /default/用户登录接口 Description: 用户登录接口 Position: 0
+2020-04-17 14:49:49.415 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.example.demo01.page.Pagination<com.example.demo01.model.OrderBo>(true)
+2020-04-17 14:49:49.415 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key com.example.demo01.page.Pagination<com.example.demo01.model.OrderBo>(true)
+2020-04-17 14:49:49.418 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.example.demo01.page.Pagination<com.example.demo01.model.OrderBo>(true)
+2020-04-17 14:49:49.419 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.example.demo01.page.Pagination<com.example.demo01.model.OrderBo>(true)
+2020-04-17 14:49:49.442 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.example.demo01.page.Pagination<com.example.demo01.model.OrderBo>(true)
+2020-04-17 14:49:49.442 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key com.example.demo01.page.Pagination<com.example.demo01.model.OrderBo>(true)
+2020-04-17 14:49:49.444 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.example.demo01.model.OrderBo(true)
+2020-04-17 14:49:49.444 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.example.demo01.model.OrderBo(true)
+2020-04-17 14:49:49.450 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.example.demo01.page.Pagination<com.example.demo01.model.OrderBo>(true)
+2020-04-17 14:49:49.450 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.example.demo01.page.Pagination<com.example.demo01.model.OrderBo>(true)
+2020-04-17 14:49:49.450 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.example.demo01.model.OrderBo(true)
+2020-04-17 14:49:49.450 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.example.demo01.model.OrderBo(true)
+2020-04-17 14:49:49.451 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.example.demo01.model.OrderBo(true)
+2020-04-17 14:49:49.452 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.example.demo01.model.OrderBo(true)
+2020-04-17 14:49:49.452 [main] INFO  s.documentation.spring.web.OperationsKeyGenerator - Cache key generated: /order/detail.com.example.demo01.controller.OrderController.getList.DefaultGenericTypeNamingStrategy
+2020-04-17 14:49:49.452 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache operations with key /order/detail.com.example.demo01.controller.OrderController.getList.DefaultGenericTypeNamingStrategy
+2020-04-17 14:49:49.466 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method getList was order-controller
+2020-04-17 14:49:49.473 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method getList was order-controller
+2020-04-17 14:49:49.479 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: java.lang.String(true)
+2020-04-17 14:49:49.479 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key java.lang.String(true)
+2020-04-17 14:49:49.479 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: java.lang.String(true)
+2020-04-17 14:49:49.479 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key java.lang.String(true)
+2020-04-17 14:49:49.480 [main] INFO  s.documentation.spring.web.OperationsKeyGenerator - Cache key generated: /order/index.com.example.demo01.controller.OrderController.index.DefaultGenericTypeNamingStrategy
+2020-04-17 14:49:49.480 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache operations with key /order/index.com.example.demo01.controller.OrderController.index.DefaultGenericTypeNamingStrategy
+2020-04-17 14:49:49.480 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method index was order-controller
+2020-04-17 14:49:49.481 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method index was order-controller
+2020-04-17 14:49:49.484 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: java.lang.String(true)
+2020-04-17 14:49:49.485 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key java.lang.String(true)
+2020-04-17 14:49:49.485 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: java.lang.String(true)
+2020-04-17 14:49:49.485 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key java.lang.String(true)
+2020-04-17 14:49:49.485 [main] INFO  s.documentation.spring.web.OperationsKeyGenerator - Cache key generated: /api/download.com.example.demo01.controller.WhpxxszController.downloadFile.DefaultGenericTypeNamingStrategy
+2020-04-17 14:49:49.485 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache operations with key /api/download.com.example.demo01.controller.WhpxxszController.downloadFile.DefaultGenericTypeNamingStrategy
+2020-04-17 14:49:49.485 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method downloadFile was whpxxsz-controller
+2020-04-17 14:49:49.486 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method downloadFile was whpxxsz-controller
+2020-04-17 14:49:49.486 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: java.lang.Object(true)
+2020-04-17 14:49:49.486 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key java.lang.Object(true)
+2020-04-17 14:49:49.487 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: java.lang.Object(true)
+2020-04-17 14:49:49.487 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key java.lang.Object(true)
+2020-04-17 14:49:49.487 [main] INFO  s.documentation.spring.web.OperationsKeyGenerator - Cache key generated: /api/downloadWhpModel.com.example.demo01.controller.WhpxxszController.downloadModel.DefaultGenericTypeNamingStrategy
+2020-04-17 14:49:49.487 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache operations with key /api/downloadWhpModel.com.example.demo01.controller.WhpxxszController.downloadModel.DefaultGenericTypeNamingStrategy
+2020-04-17 14:49:49.487 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method downloadModel was whpxxsz-controller
+2020-04-17 14:49:49.488 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method downloadModel was whpxxsz-controller
+2020-04-17 14:49:49.488 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.example.demo01.utils.Download(true)
+2020-04-17 14:49:49.488 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key com.example.demo01.utils.Download(true)
+2020-04-17 14:49:49.489 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.example.demo01.utils.Download(true)
+2020-04-17 14:49:49.489 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.example.demo01.utils.Download(true)
+2020-04-17 14:49:49.490 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.example.demo01.utils.Download(true)
+2020-04-17 14:49:49.490 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key com.example.demo01.utils.Download(true)
+2020-04-17 14:49:49.491 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.example.demo01.utils.Download(true)
+2020-04-17 14:49:49.491 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.example.demo01.utils.Download(true)
+2020-04-17 14:49:49.491 [main] INFO  s.documentation.spring.web.OperationsKeyGenerator - Cache key generated: /api/downloadWhpModel01.com.example.demo01.controller.WhpxxszController.downloadModel01.DefaultGenericTypeNamingStrategy
+2020-04-17 14:49:49.491 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache operations with key /api/downloadWhpModel01.com.example.demo01.controller.WhpxxszController.downloadModel01.DefaultGenericTypeNamingStrategy
+2020-04-17 14:49:49.491 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method downloadModel01 was whpxxsz-controller
+2020-04-17 14:49:49.492 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method downloadModel01 was whpxxsz-controller
+2020-04-17 14:49:49.493 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: java.lang.String(true)
+2020-04-17 14:49:49.493 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key java.lang.String(true)
+2020-04-17 14:49:49.493 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: java.lang.String(true)
+2020-04-17 14:49:49.493 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key java.lang.String(true)
+2020-04-17 14:49:49.493 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.example.demo01.model.AdminLoginRequest(false)
+2020-04-17 14:49:49.493 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key com.example.demo01.model.AdminLoginRequest(false)
+2020-04-17 14:49:49.494 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.example.demo01.model.AdminLoginRequest(false)
+2020-04-17 14:49:49.494 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.example.demo01.model.AdminLoginRequest(false)
+2020-04-17 14:49:49.495 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.example.demo01.model.AdminLoginRequest(false)
+2020-04-17 14:49:49.495 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key com.example.demo01.model.AdminLoginRequest(false)
+2020-04-17 14:49:49.495 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.example.demo01.model.AdminLoginRequest(false)
+2020-04-17 14:49:49.495 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.example.demo01.model.AdminLoginRequest(false)
+2020-04-17 14:49:49.495 [main] INFO  s.documentation.spring.web.OperationsKeyGenerator - Cache key generated: /user/create.com.example.demo01.controller.LoginController.createSession.DefaultGenericTypeNamingStrategy
+2020-04-17 14:49:49.495 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache operations with key /user/create.com.example.demo01.controller.LoginController.createSession.DefaultGenericTypeNamingStrategy
+2020-04-17 14:49:49.496 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method createSession was 用户登录接口
+2020-04-17 14:49:49.497 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method createSession was 用户登录接口
+2020-04-17 14:49:49.497 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: java.lang.String(true)
+2020-04-17 14:49:49.497 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key java.lang.String(true)
+2020-04-17 14:49:49.498 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: java.lang.String(true)
+2020-04-17 14:49:49.498 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key java.lang.String(true)
+2020-04-17 14:49:49.498 [main] INFO  s.documentation.spring.web.OperationsKeyGenerator - Cache key generated: /user/view.com.example.demo01.controller.LoginController.getList.DefaultGenericTypeNamingStrategy
+2020-04-17 14:49:49.498 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache operations with key /user/view.com.example.demo01.controller.LoginController.getList.DefaultGenericTypeNamingStrategy
+2020-04-17 14:49:49.499 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method getList was 用户登录接口
+2020-04-17 14:49:49.500 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method getList was 用户登录接口
+2020-04-17 14:49:49.508 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+2020-04-17 14:49:49.525 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8090 (http) with context path ''
+2020-04-17 14:49:49.527 [main] INFO  com.example.demo01.Demo01Application - Started Demo01Application in 5.295 seconds (JVM running for 5.957)
+2020-04-17 15:00:38.736 [Thread-13] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-17 15:00:38.739 [Thread-13] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-04-17 15:00:38.741 [Thread-13] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2020-04-17 15:00:38.744 [Thread-13] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2020-04-17 15:00:41.138 [main] INFO  com.example.demo01.Demo01Application - Starting Demo01Application on DESKTOP-9CKSNF3 with PID 7056 (D:\demo01\target\classes started by Agrivo in D:\demo01)
+2020-04-17 15:00:41.140 [main] INFO  com.example.demo01.Demo01Application - No active profile set, falling back to default profiles: default
+2020-04-17 15:00:41.813 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-04-17 15:00:41.870 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 51ms. Found 2 repository interfaces.
+2020-04-17 15:00:42.085 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'shiroConfig' of type [com.example.demo01.shiro.ShiroConfig$$EnhancerBySpringCGLIB$$6b1e85e7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-17 15:00:42.283 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'myRealm' of type [com.example.demo01.shiro.ShiroRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-17 15:00:42.286 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-17 15:00:42.308 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-17 15:00:42.345 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$2c8dfd65] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-17 15:00:42.418 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$ac0e4a97] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-17 15:00:42.765 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
+2020-04-17 15:00:42.774 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+2020-04-17 15:00:42.779 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-17 15:00:42.780 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.14]
+2020-04-17 15:00:42.784 [main] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_161\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Java\jdk1.8.0_161\bin;D:\Java\apache-maven-3.3.9\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\MySQL\MySQL Server 5.5\bin;C:\Program Files\TortoiseSVN\bin;C:\Users\Agrivo\AppData\Local\Microsoft\WindowsApps;;.]
+2020-04-17 15:00:42.870 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-04-17 15:00:42.870 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1653 ms
+2020-04-17 15:00:43.050 [main] INFO  org.flywaydb.core.internal.license.VersionPrinter - Flyway Community Edition 5.2.4 by Boxfuse
+2020-04-17 15:00:43.052 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-04-17 15:00:43.132 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-04-17 15:00:43.134 [main] INFO  o.flywaydb.core.internal.database.DatabaseFactory - Database: jdbc:mysql://127.0.0.1:3306/shiro_test (MySQL 5.5)
+2020-04-17 15:00:43.207 [main] INFO  org.flywaydb.core.internal.command.DbValidate - Successfully validated 2 migrations (execution time 00:00.016s)
+2020-04-17 15:00:43.211 [main] INFO  org.flywaydb.core.internal.command.DbMigrate - Current version of schema `shiro_test`: 20190923105701
+2020-04-17 15:00:43.212 [main] INFO  org.flywaydb.core.internal.command.DbMigrate - Schema `shiro_test` is up to date. No migration necessary.
+2020-04-17 15:00:43.311 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-04-17 15:00:43.362 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.3.7.Final}
+2020-04-17 15:00:43.363 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2020-04-17 15:00:43.458 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2020-04-17 15:00:43.571 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-04-17 15:00:44.197 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-17 15:00:45.426 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-17 15:00:45.530 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2020-04-17 15:00:45.795 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-04-17 15:00:45.806 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found {0} custom documentation plugin(s)
+2020-04-17 15:00:45.813 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-04-17 15:00:45.815 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method downloadModel01 was whpxxsz-controller
+2020-04-17 15:00:45.816 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Request mapping: downloadModel01 belongs to groups: [[ResourceGroup{groupName='whpxxsz-controller', position=0, controller=com.example.demo01.controller.WhpxxszController}]] 
+2020-04-17 15:00:45.817 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method downloadModel was whpxxsz-controller
+2020-04-17 15:00:45.817 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Request mapping: downloadModel belongs to groups: [[ResourceGroup{groupName='whpxxsz-controller', position=0, controller=com.example.demo01.controller.WhpxxszController}]] 
+2020-04-17 15:00:45.817 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method downloadFile was whpxxsz-controller
+2020-04-17 15:00:45.817 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Request mapping: downloadFile belongs to groups: [[ResourceGroup{groupName='whpxxsz-controller', position=0, controller=com.example.demo01.controller.WhpxxszController}]] 
+2020-04-17 15:00:45.818 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method getList was order-controller
+2020-04-17 15:00:45.818 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Request mapping: getList belongs to groups: [[ResourceGroup{groupName='order-controller', position=0, controller=com.example.demo01.controller.OrderController}]] 
+2020-04-17 15:00:45.818 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method index was order-controller
+2020-04-17 15:00:45.818 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Request mapping: index belongs to groups: [[ResourceGroup{groupName='order-controller', position=0, controller=com.example.demo01.controller.OrderController}]] 
+2020-04-17 15:00:45.818 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method createSession was 用户登录接口
+2020-04-17 15:00:45.818 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Request mapping: createSession belongs to groups: [[ResourceGroup{groupName='用户登录接口', position=0, controller=com.example.demo01.controller.LoginController}]] 
+2020-04-17 15:00:45.818 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method getList was 用户登录接口
+2020-04-17 15:00:45.819 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Request mapping: getList belongs to groups: [[ResourceGroup{groupName='用户登录接口', position=0, controller=com.example.demo01.controller.LoginController}]] 
+2020-04-17 15:00:45.821 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Created resource listing Path: /default/用户登录接口 Description: 用户登录接口 Position: 0
+2020-04-17 15:00:45.822 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Created resource listing Path: /default/order-controller Description: order-controller Position: 0
+2020-04-17 15:00:45.822 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Created resource listing Path: /default/whpxxsz-controller Description: whpxxsz-controller Position: 0
+2020-04-17 15:00:45.838 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.example.demo01.page.Pagination<com.example.demo01.model.OrderBo>(true)
+2020-04-17 15:00:45.838 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key com.example.demo01.page.Pagination<com.example.demo01.model.OrderBo>(true)
+2020-04-17 15:00:45.842 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.example.demo01.page.Pagination<com.example.demo01.model.OrderBo>(true)
+2020-04-17 15:00:45.842 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.example.demo01.page.Pagination<com.example.demo01.model.OrderBo>(true)
+2020-04-17 15:00:45.867 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.example.demo01.page.Pagination<com.example.demo01.model.OrderBo>(true)
+2020-04-17 15:00:45.867 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key com.example.demo01.page.Pagination<com.example.demo01.model.OrderBo>(true)
+2020-04-17 15:00:45.869 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.example.demo01.model.OrderBo(true)
+2020-04-17 15:00:45.869 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.example.demo01.model.OrderBo(true)
+2020-04-17 15:00:45.874 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.example.demo01.page.Pagination<com.example.demo01.model.OrderBo>(true)
+2020-04-17 15:00:45.874 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.example.demo01.page.Pagination<com.example.demo01.model.OrderBo>(true)
+2020-04-17 15:00:45.875 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.example.demo01.model.OrderBo(true)
+2020-04-17 15:00:45.875 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.example.demo01.model.OrderBo(true)
+2020-04-17 15:00:45.876 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.example.demo01.model.OrderBo(true)
+2020-04-17 15:00:45.876 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.example.demo01.model.OrderBo(true)
+2020-04-17 15:00:45.877 [main] INFO  s.documentation.spring.web.OperationsKeyGenerator - Cache key generated: /order/detail.com.example.demo01.controller.OrderController.getList.DefaultGenericTypeNamingStrategy
+2020-04-17 15:00:45.877 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache operations with key /order/detail.com.example.demo01.controller.OrderController.getList.DefaultGenericTypeNamingStrategy
+2020-04-17 15:00:45.890 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method getList was order-controller
+2020-04-17 15:00:45.898 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method getList was order-controller
+2020-04-17 15:00:45.904 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: java.lang.String(true)
+2020-04-17 15:00:45.904 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key java.lang.String(true)
+2020-04-17 15:00:45.904 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: java.lang.String(true)
+2020-04-17 15:00:45.904 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key java.lang.String(true)
+2020-04-17 15:00:45.904 [main] INFO  s.documentation.spring.web.OperationsKeyGenerator - Cache key generated: /order/index.com.example.demo01.controller.OrderController.index.DefaultGenericTypeNamingStrategy
+2020-04-17 15:00:45.905 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache operations with key /order/index.com.example.demo01.controller.OrderController.index.DefaultGenericTypeNamingStrategy
+2020-04-17 15:00:45.905 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method index was order-controller
+2020-04-17 15:00:45.906 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method index was order-controller
+2020-04-17 15:00:45.909 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: java.lang.String(true)
+2020-04-17 15:00:45.910 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key java.lang.String(true)
+2020-04-17 15:00:45.910 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: java.lang.String(true)
+2020-04-17 15:00:45.910 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key java.lang.String(true)
+2020-04-17 15:00:45.910 [main] INFO  s.documentation.spring.web.OperationsKeyGenerator - Cache key generated: /api/download.com.example.demo01.controller.WhpxxszController.downloadFile.DefaultGenericTypeNamingStrategy
+2020-04-17 15:00:45.910 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache operations with key /api/download.com.example.demo01.controller.WhpxxszController.downloadFile.DefaultGenericTypeNamingStrategy
+2020-04-17 15:00:45.910 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method downloadFile was whpxxsz-controller
+2020-04-17 15:00:45.911 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method downloadFile was whpxxsz-controller
+2020-04-17 15:00:45.911 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: java.lang.Object(true)
+2020-04-17 15:00:45.911 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key java.lang.Object(true)
+2020-04-17 15:00:45.911 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: java.lang.Object(true)
+2020-04-17 15:00:45.911 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key java.lang.Object(true)
+2020-04-17 15:00:45.912 [main] INFO  s.documentation.spring.web.OperationsKeyGenerator - Cache key generated: /api/downloadWhpModel.com.example.demo01.controller.WhpxxszController.downloadModel.DefaultGenericTypeNamingStrategy
+2020-04-17 15:00:45.912 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache operations with key /api/downloadWhpModel.com.example.demo01.controller.WhpxxszController.downloadModel.DefaultGenericTypeNamingStrategy
+2020-04-17 15:00:45.912 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method downloadModel was whpxxsz-controller
+2020-04-17 15:00:45.913 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method downloadModel was whpxxsz-controller
+2020-04-17 15:00:45.913 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.example.demo01.utils.Download(true)
+2020-04-17 15:00:45.913 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key com.example.demo01.utils.Download(true)
+2020-04-17 15:00:45.914 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.example.demo01.utils.Download(true)
+2020-04-17 15:00:45.914 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.example.demo01.utils.Download(true)
+2020-04-17 15:00:45.915 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.example.demo01.utils.Download(true)
+2020-04-17 15:00:45.915 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key com.example.demo01.utils.Download(true)
+2020-04-17 15:00:45.916 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.example.demo01.utils.Download(true)
+2020-04-17 15:00:45.916 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.example.demo01.utils.Download(true)
+2020-04-17 15:00:45.916 [main] INFO  s.documentation.spring.web.OperationsKeyGenerator - Cache key generated: /api/downloadWhpModel01.com.example.demo01.controller.WhpxxszController.downloadModel01.DefaultGenericTypeNamingStrategy
+2020-04-17 15:00:45.916 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache operations with key /api/downloadWhpModel01.com.example.demo01.controller.WhpxxszController.downloadModel01.DefaultGenericTypeNamingStrategy
+2020-04-17 15:00:45.916 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method downloadModel01 was whpxxsz-controller
+2020-04-17 15:00:45.917 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method downloadModel01 was whpxxsz-controller
+2020-04-17 15:00:45.918 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: java.lang.String(true)
+2020-04-17 15:00:45.918 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key java.lang.String(true)
+2020-04-17 15:00:45.919 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: java.lang.String(true)
+2020-04-17 15:00:45.919 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key java.lang.String(true)
+2020-04-17 15:00:45.919 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.example.demo01.model.AdminLoginRequest(false)
+2020-04-17 15:00:45.919 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key com.example.demo01.model.AdminLoginRequest(false)
+2020-04-17 15:00:45.919 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.example.demo01.model.AdminLoginRequest(false)
+2020-04-17 15:00:45.919 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.example.demo01.model.AdminLoginRequest(false)
+2020-04-17 15:00:45.920 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.example.demo01.model.AdminLoginRequest(false)
+2020-04-17 15:00:45.920 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key com.example.demo01.model.AdminLoginRequest(false)
+2020-04-17 15:00:45.920 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.example.demo01.model.AdminLoginRequest(false)
+2020-04-17 15:00:45.921 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.example.demo01.model.AdminLoginRequest(false)
+2020-04-17 15:00:45.921 [main] INFO  s.documentation.spring.web.OperationsKeyGenerator - Cache key generated: /user/create.com.example.demo01.controller.LoginController.createSession.DefaultGenericTypeNamingStrategy
+2020-04-17 15:00:45.921 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache operations with key /user/create.com.example.demo01.controller.LoginController.createSession.DefaultGenericTypeNamingStrategy
+2020-04-17 15:00:45.921 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method createSession was 用户登录接口
+2020-04-17 15:00:45.922 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method createSession was 用户登录接口
+2020-04-17 15:00:45.922 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: java.lang.String(true)
+2020-04-17 15:00:45.922 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key java.lang.String(true)
+2020-04-17 15:00:45.923 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: java.lang.String(true)
+2020-04-17 15:00:45.923 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key java.lang.String(true)
+2020-04-17 15:00:45.923 [main] INFO  s.documentation.spring.web.OperationsKeyGenerator - Cache key generated: /user/view.com.example.demo01.controller.LoginController.getList.DefaultGenericTypeNamingStrategy
+2020-04-17 15:00:45.923 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache operations with key /user/view.com.example.demo01.controller.LoginController.getList.DefaultGenericTypeNamingStrategy
+2020-04-17 15:00:45.924 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method getList was 用户登录接口
+2020-04-17 15:00:45.925 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method getList was 用户登录接口
+2020-04-17 15:00:45.934 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+2020-04-17 15:00:45.950 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8090 (http) with context path ''
+2020-04-17 15:00:45.952 [main] INFO  com.example.demo01.Demo01Application - Started Demo01Application in 5.215 seconds (JVM running for 5.839)
+2020-04-17 15:03:08.696 [Thread-13] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-17 15:03:08.699 [Thread-13] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-04-17 15:03:08.701 [Thread-13] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2020-04-17 15:03:08.704 [Thread-13] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2020-04-17 15:03:11.098 [main] INFO  com.example.demo01.Demo01Application - Starting Demo01Application on DESKTOP-9CKSNF3 with PID 16320 (D:\demo01\target\classes started by Agrivo in D:\demo01)
+2020-04-17 15:03:11.101 [main] INFO  com.example.demo01.Demo01Application - No active profile set, falling back to default profiles: default
+2020-04-17 15:03:11.768 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-04-17 15:03:11.825 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 51ms. Found 2 repository interfaces.
+2020-04-17 15:03:12.041 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'shiroConfig' of type [com.example.demo01.shiro.ShiroConfig$$EnhancerBySpringCGLIB$$8a073618] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-17 15:03:12.242 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'myRealm' of type [com.example.demo01.shiro.ShiroRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-17 15:03:12.245 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-17 15:03:12.267 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-17 15:03:12.303 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4b76ad96] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-17 15:03:12.377 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$caf6fac8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-17 15:03:12.729 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
+2020-04-17 15:03:12.739 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+2020-04-17 15:03:12.744 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-17 15:03:12.744 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.14]
+2020-04-17 15:03:12.749 [main] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_161\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Java\jdk1.8.0_161\bin;D:\Java\apache-maven-3.3.9\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\MySQL\MySQL Server 5.5\bin;C:\Program Files\TortoiseSVN\bin;C:\Users\Agrivo\AppData\Local\Microsoft\WindowsApps;;.]
+2020-04-17 15:03:12.835 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-04-17 15:03:12.835 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1697 ms
+2020-04-17 15:03:13.016 [main] INFO  org.flywaydb.core.internal.license.VersionPrinter - Flyway Community Edition 5.2.4 by Boxfuse
+2020-04-17 15:03:13.018 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-04-17 15:03:13.094 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-04-17 15:03:13.096 [main] INFO  o.flywaydb.core.internal.database.DatabaseFactory - Database: jdbc:mysql://127.0.0.1:3306/shiro_test (MySQL 5.5)
+2020-04-17 15:03:13.159 [main] INFO  org.flywaydb.core.internal.command.DbValidate - Successfully validated 1 migration (execution time 00:00.007s)
+2020-04-17 15:03:13.164 [main] INFO  org.flywaydb.core.internal.command.DbMigrate - Current version of schema `shiro_test`: 20190923105701
+2020-04-17 15:03:13.164 [main] INFO  org.flywaydb.core.internal.command.DbMigrate - Schema `shiro_test` is up to date. No migration necessary.
+2020-04-17 15:03:13.266 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-04-17 15:03:13.317 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.3.7.Final}
+2020-04-17 15:03:13.319 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2020-04-17 15:03:13.415 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2020-04-17 15:03:13.529 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-04-17 15:03:14.153 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-17 15:03:15.414 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-17 15:03:15.524 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2020-04-17 15:03:15.806 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-04-17 15:03:15.818 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found {0} custom documentation plugin(s)
+2020-04-17 15:03:15.825 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-04-17 15:03:15.827 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method downloadModel01 was whpxxsz-controller
+2020-04-17 15:03:15.829 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Request mapping: downloadModel01 belongs to groups: [[ResourceGroup{groupName='whpxxsz-controller', position=0, controller=com.example.demo01.controller.WhpxxszController}]] 
+2020-04-17 15:03:15.830 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method downloadModel was whpxxsz-controller
+2020-04-17 15:03:15.830 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Request mapping: downloadModel belongs to groups: [[ResourceGroup{groupName='whpxxsz-controller', position=0, controller=com.example.demo01.controller.WhpxxszController}]] 
+2020-04-17 15:03:15.831 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method downloadFile was whpxxsz-controller
+2020-04-17 15:03:15.831 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Request mapping: downloadFile belongs to groups: [[ResourceGroup{groupName='whpxxsz-controller', position=0, controller=com.example.demo01.controller.WhpxxszController}]] 
+2020-04-17 15:03:15.831 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method getList was order-controller
+2020-04-17 15:03:15.831 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Request mapping: getList belongs to groups: [[ResourceGroup{groupName='order-controller', position=0, controller=com.example.demo01.controller.OrderController}]] 
+2020-04-17 15:03:15.831 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method index was order-controller
+2020-04-17 15:03:15.831 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Request mapping: index belongs to groups: [[ResourceGroup{groupName='order-controller', position=0, controller=com.example.demo01.controller.OrderController}]] 
+2020-04-17 15:03:15.832 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method createSession was 用户登录接口
+2020-04-17 15:03:15.833 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Request mapping: createSession belongs to groups: [[ResourceGroup{groupName='用户登录接口', position=0, controller=com.example.demo01.controller.LoginController}]] 
+2020-04-17 15:03:15.833 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method getList was 用户登录接口
+2020-04-17 15:03:15.833 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Request mapping: getList belongs to groups: [[ResourceGroup{groupName='用户登录接口', position=0, controller=com.example.demo01.controller.LoginController}]] 
+2020-04-17 15:03:15.835 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Created resource listing Path: /default/用户登录接口 Description: 用户登录接口 Position: 0
+2020-04-17 15:03:15.836 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Created resource listing Path: /default/order-controller Description: order-controller Position: 0
+2020-04-17 15:03:15.836 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Created resource listing Path: /default/whpxxsz-controller Description: whpxxsz-controller Position: 0
+2020-04-17 15:03:15.852 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.example.demo01.page.Pagination<com.example.demo01.model.OrderBo>(true)
+2020-04-17 15:03:15.852 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key com.example.demo01.page.Pagination<com.example.demo01.model.OrderBo>(true)
+2020-04-17 15:03:15.856 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.example.demo01.page.Pagination<com.example.demo01.model.OrderBo>(true)
+2020-04-17 15:03:15.857 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.example.demo01.page.Pagination<com.example.demo01.model.OrderBo>(true)
+2020-04-17 15:03:15.882 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.example.demo01.page.Pagination<com.example.demo01.model.OrderBo>(true)
+2020-04-17 15:03:15.883 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key com.example.demo01.page.Pagination<com.example.demo01.model.OrderBo>(true)
+2020-04-17 15:03:15.885 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.example.demo01.model.OrderBo(true)
+2020-04-17 15:03:15.885 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.example.demo01.model.OrderBo(true)
+2020-04-17 15:03:15.891 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.example.demo01.page.Pagination<com.example.demo01.model.OrderBo>(true)
+2020-04-17 15:03:15.891 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.example.demo01.page.Pagination<com.example.demo01.model.OrderBo>(true)
+2020-04-17 15:03:15.891 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.example.demo01.model.OrderBo(true)
+2020-04-17 15:03:15.891 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.example.demo01.model.OrderBo(true)
+2020-04-17 15:03:15.892 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.example.demo01.model.OrderBo(true)
+2020-04-17 15:03:15.893 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.example.demo01.model.OrderBo(true)
+2020-04-17 15:03:15.893 [main] INFO  s.documentation.spring.web.OperationsKeyGenerator - Cache key generated: /order/detail.com.example.demo01.controller.OrderController.getList.DefaultGenericTypeNamingStrategy
+2020-04-17 15:03:15.893 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache operations with key /order/detail.com.example.demo01.controller.OrderController.getList.DefaultGenericTypeNamingStrategy
+2020-04-17 15:03:15.906 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method getList was order-controller
+2020-04-17 15:03:15.914 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method getList was order-controller
+2020-04-17 15:03:15.920 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: java.lang.String(true)
+2020-04-17 15:03:15.920 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key java.lang.String(true)
+2020-04-17 15:03:15.920 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: java.lang.String(true)
+2020-04-17 15:03:15.920 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key java.lang.String(true)
+2020-04-17 15:03:15.920 [main] INFO  s.documentation.spring.web.OperationsKeyGenerator - Cache key generated: /order/index.com.example.demo01.controller.OrderController.index.DefaultGenericTypeNamingStrategy
+2020-04-17 15:03:15.921 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache operations with key /order/index.com.example.demo01.controller.OrderController.index.DefaultGenericTypeNamingStrategy
+2020-04-17 15:03:15.921 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method index was order-controller
+2020-04-17 15:03:15.922 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method index was order-controller
+2020-04-17 15:03:15.925 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: java.lang.String(true)
+2020-04-17 15:03:15.926 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key java.lang.String(true)
+2020-04-17 15:03:15.926 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: java.lang.String(true)
+2020-04-17 15:03:15.926 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key java.lang.String(true)
+2020-04-17 15:03:15.926 [main] INFO  s.documentation.spring.web.OperationsKeyGenerator - Cache key generated: /api/download.com.example.demo01.controller.WhpxxszController.downloadFile.DefaultGenericTypeNamingStrategy
+2020-04-17 15:03:15.926 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache operations with key /api/download.com.example.demo01.controller.WhpxxszController.downloadFile.DefaultGenericTypeNamingStrategy
+2020-04-17 15:03:15.926 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method downloadFile was whpxxsz-controller
+2020-04-17 15:03:15.927 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method downloadFile was whpxxsz-controller
+2020-04-17 15:03:15.927 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: java.lang.Object(true)
+2020-04-17 15:03:15.927 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key java.lang.Object(true)
+2020-04-17 15:03:15.927 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: java.lang.Object(true)
+2020-04-17 15:03:15.927 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key java.lang.Object(true)
+2020-04-17 15:03:15.928 [main] INFO  s.documentation.spring.web.OperationsKeyGenerator - Cache key generated: /api/downloadWhpModel.com.example.demo01.controller.WhpxxszController.downloadModel.DefaultGenericTypeNamingStrategy
+2020-04-17 15:03:15.928 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache operations with key /api/downloadWhpModel.com.example.demo01.controller.WhpxxszController.downloadModel.DefaultGenericTypeNamingStrategy
+2020-04-17 15:03:15.928 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method downloadModel was whpxxsz-controller
+2020-04-17 15:03:15.929 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method downloadModel was whpxxsz-controller
+2020-04-17 15:03:15.929 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.example.demo01.utils.Download(true)
+2020-04-17 15:03:15.929 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key com.example.demo01.utils.Download(true)
+2020-04-17 15:03:15.929 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.example.demo01.utils.Download(true)
+2020-04-17 15:03:15.929 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.example.demo01.utils.Download(true)
+2020-04-17 15:03:15.931 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.example.demo01.utils.Download(true)
+2020-04-17 15:03:15.931 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key com.example.demo01.utils.Download(true)
+2020-04-17 15:03:15.931 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.example.demo01.utils.Download(true)
+2020-04-17 15:03:15.931 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.example.demo01.utils.Download(true)
+2020-04-17 15:03:15.931 [main] INFO  s.documentation.spring.web.OperationsKeyGenerator - Cache key generated: /api/downloadWhpModel01.com.example.demo01.controller.WhpxxszController.downloadModel01.DefaultGenericTypeNamingStrategy
+2020-04-17 15:03:15.931 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache operations with key /api/downloadWhpModel01.com.example.demo01.controller.WhpxxszController.downloadModel01.DefaultGenericTypeNamingStrategy
+2020-04-17 15:03:15.932 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method downloadModel01 was whpxxsz-controller
+2020-04-17 15:03:15.932 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method downloadModel01 was whpxxsz-controller
+2020-04-17 15:03:15.933 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: java.lang.String(true)
+2020-04-17 15:03:15.934 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key java.lang.String(true)
+2020-04-17 15:03:15.934 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: java.lang.String(true)
+2020-04-17 15:03:15.934 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key java.lang.String(true)
+2020-04-17 15:03:15.934 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.example.demo01.model.AdminLoginRequest(false)
+2020-04-17 15:03:15.934 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key com.example.demo01.model.AdminLoginRequest(false)
+2020-04-17 15:03:15.934 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.example.demo01.model.AdminLoginRequest(false)
+2020-04-17 15:03:15.934 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.example.demo01.model.AdminLoginRequest(false)
+2020-04-17 15:03:15.935 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.example.demo01.model.AdminLoginRequest(false)
+2020-04-17 15:03:15.935 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key com.example.demo01.model.AdminLoginRequest(false)
+2020-04-17 15:03:15.936 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.example.demo01.model.AdminLoginRequest(false)
+2020-04-17 15:03:15.936 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.example.demo01.model.AdminLoginRequest(false)
+2020-04-17 15:03:15.936 [main] INFO  s.documentation.spring.web.OperationsKeyGenerator - Cache key generated: /user/create.com.example.demo01.controller.LoginController.createSession.DefaultGenericTypeNamingStrategy
+2020-04-17 15:03:15.936 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache operations with key /user/create.com.example.demo01.controller.LoginController.createSession.DefaultGenericTypeNamingStrategy
+2020-04-17 15:03:15.937 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method createSession was 用户登录接口
+2020-04-17 15:03:15.937 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method createSession was 用户登录接口
+2020-04-17 15:03:15.938 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: java.lang.String(true)
+2020-04-17 15:03:15.938 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key java.lang.String(true)
+2020-04-17 15:03:15.938 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: java.lang.String(true)
+2020-04-17 15:03:15.938 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key java.lang.String(true)
+2020-04-17 15:03:15.938 [main] INFO  s.documentation.spring.web.OperationsKeyGenerator - Cache key generated: /user/view.com.example.demo01.controller.LoginController.getList.DefaultGenericTypeNamingStrategy
+2020-04-17 15:03:15.938 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache operations with key /user/view.com.example.demo01.controller.LoginController.getList.DefaultGenericTypeNamingStrategy
+2020-04-17 15:03:15.939 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method getList was 用户登录接口
+2020-04-17 15:03:15.940 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method getList was 用户登录接口
+2020-04-17 15:03:15.949 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+2020-04-17 15:03:15.966 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8090 (http) with context path ''
+2020-04-17 15:03:15.967 [main] INFO  com.example.demo01.Demo01Application - Started Demo01Application in 5.268 seconds (JVM running for 5.959)
+2020-04-17 15:04:29.409 [Thread-12] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-17 15:04:29.413 [Thread-12] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-04-17 15:04:29.415 [Thread-12] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2020-04-17 15:04:29.417 [Thread-12] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2020-04-17 15:04:31.783 [main] INFO  com.example.demo01.Demo01Application - Starting Demo01Application on DESKTOP-9CKSNF3 with PID 556 (D:\demo01\target\classes started by Agrivo in D:\demo01)
+2020-04-17 15:04:31.786 [main] INFO  com.example.demo01.Demo01Application - No active profile set, falling back to default profiles: default
+2020-04-17 15:04:32.518 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-04-17 15:04:32.579 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 55ms. Found 2 repository interfaces.
+2020-04-17 15:04:32.793 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'shiroConfig' of type [com.example.demo01.shiro.ShiroConfig$$EnhancerBySpringCGLIB$$beeed7f9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-17 15:04:32.992 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'myRealm' of type [com.example.demo01.shiro.ShiroRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-17 15:04:32.995 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-17 15:04:33.018 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-17 15:04:33.054 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$805e4f77] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-17 15:04:33.128 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$ffde9ca9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-17 15:04:33.467 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
+2020-04-17 15:04:33.476 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+2020-04-17 15:04:33.482 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-17 15:04:33.482 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.14]
+2020-04-17 15:04:33.486 [main] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_161\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Java\jdk1.8.0_161\bin;D:\Java\apache-maven-3.3.9\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\MySQL\MySQL Server 5.5\bin;C:\Program Files\TortoiseSVN\bin;C:\Users\Agrivo\AppData\Local\Microsoft\WindowsApps;;.]
+2020-04-17 15:04:33.572 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-04-17 15:04:33.572 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1755 ms
+2020-04-17 15:04:33.753 [main] INFO  org.flywaydb.core.internal.license.VersionPrinter - Flyway Community Edition 5.2.4 by Boxfuse
+2020-04-17 15:04:33.755 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-04-17 15:04:33.835 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-04-17 15:04:33.837 [main] INFO  o.flywaydb.core.internal.database.DatabaseFactory - Database: jdbc:mysql://127.0.0.1:3306/shiro_test (MySQL 5.5)
+2020-04-17 15:04:33.895 [main] INFO  org.flywaydb.core.internal.command.DbValidate - Successfully validated 1 migration (execution time 00:00.008s)
+2020-04-17 15:04:33.901 [main] INFO  org.flywaydb.core.internal.command.DbMigrate - Current version of schema `shiro_test`: 20190923105701
+2020-04-17 15:04:33.901 [main] INFO  org.flywaydb.core.internal.command.DbMigrate - Schema `shiro_test` is up to date. No migration necessary.
+2020-04-17 15:04:34.013 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-04-17 15:04:34.064 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.3.7.Final}
+2020-04-17 15:04:34.065 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2020-04-17 15:04:34.162 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2020-04-17 15:04:34.274 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-04-17 15:04:34.882 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-17 15:04:36.145 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-17 15:04:36.252 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2020-04-17 15:04:36.521 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-04-17 15:04:36.532 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found {0} custom documentation plugin(s)
+2020-04-17 15:04:36.538 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-04-17 15:04:36.541 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method downloadModel01 was whpxxsz-controller
+2020-04-17 15:04:36.542 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Request mapping: downloadModel01 belongs to groups: [[ResourceGroup{groupName='whpxxsz-controller', position=0, controller=com.example.demo01.controller.WhpxxszController}]] 
+2020-04-17 15:04:36.543 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method downloadModel was whpxxsz-controller
+2020-04-17 15:04:36.543 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Request mapping: downloadModel belongs to groups: [[ResourceGroup{groupName='whpxxsz-controller', position=0, controller=com.example.demo01.controller.WhpxxszController}]] 
+2020-04-17 15:04:36.543 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method downloadFile was whpxxsz-controller
+2020-04-17 15:04:36.544 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Request mapping: downloadFile belongs to groups: [[ResourceGroup{groupName='whpxxsz-controller', position=0, controller=com.example.demo01.controller.WhpxxszController}]] 
+2020-04-17 15:04:36.544 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method getList was order-controller
+2020-04-17 15:04:36.544 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Request mapping: getList belongs to groups: [[ResourceGroup{groupName='order-controller', position=0, controller=com.example.demo01.controller.OrderController}]] 
+2020-04-17 15:04:36.544 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method index was order-controller
+2020-04-17 15:04:36.544 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Request mapping: index belongs to groups: [[ResourceGroup{groupName='order-controller', position=0, controller=com.example.demo01.controller.OrderController}]] 
+2020-04-17 15:04:36.545 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method createSession was 用户登录接口
+2020-04-17 15:04:36.545 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Request mapping: createSession belongs to groups: [[ResourceGroup{groupName='用户登录接口', position=0, controller=com.example.demo01.controller.LoginController}]] 
+2020-04-17 15:04:36.546 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method getList was 用户登录接口
+2020-04-17 15:04:36.546 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Request mapping: getList belongs to groups: [[ResourceGroup{groupName='用户登录接口', position=0, controller=com.example.demo01.controller.LoginController}]] 
+2020-04-17 15:04:36.548 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Created resource listing Path: /default/用户登录接口 Description: 用户登录接口 Position: 0
+2020-04-17 15:04:36.549 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Created resource listing Path: /default/whpxxsz-controller Description: whpxxsz-controller Position: 0
+2020-04-17 15:04:36.549 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Created resource listing Path: /default/order-controller Description: order-controller Position: 0
+2020-04-17 15:04:36.565 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.example.demo01.page.Pagination<com.example.demo01.model.OrderBo>(true)
+2020-04-17 15:04:36.565 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key com.example.demo01.page.Pagination<com.example.demo01.model.OrderBo>(true)
+2020-04-17 15:04:36.569 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.example.demo01.page.Pagination<com.example.demo01.model.OrderBo>(true)
+2020-04-17 15:04:36.569 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.example.demo01.page.Pagination<com.example.demo01.model.OrderBo>(true)
+2020-04-17 15:04:36.594 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.example.demo01.page.Pagination<com.example.demo01.model.OrderBo>(true)
+2020-04-17 15:04:36.595 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key com.example.demo01.page.Pagination<com.example.demo01.model.OrderBo>(true)
+2020-04-17 15:04:36.596 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.example.demo01.model.OrderBo(true)
+2020-04-17 15:04:36.597 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.example.demo01.model.OrderBo(true)
+2020-04-17 15:04:36.602 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.example.demo01.page.Pagination<com.example.demo01.model.OrderBo>(true)
+2020-04-17 15:04:36.602 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.example.demo01.page.Pagination<com.example.demo01.model.OrderBo>(true)
+2020-04-17 15:04:36.603 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.example.demo01.model.OrderBo(true)
+2020-04-17 15:04:36.603 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.example.demo01.model.OrderBo(true)
+2020-04-17 15:04:36.604 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.example.demo01.model.OrderBo(true)
+2020-04-17 15:04:36.604 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.example.demo01.model.OrderBo(true)
+2020-04-17 15:04:36.605 [main] INFO  s.documentation.spring.web.OperationsKeyGenerator - Cache key generated: /order/detail.com.example.demo01.controller.OrderController.getList.DefaultGenericTypeNamingStrategy
+2020-04-17 15:04:36.605 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache operations with key /order/detail.com.example.demo01.controller.OrderController.getList.DefaultGenericTypeNamingStrategy
+2020-04-17 15:04:36.618 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method getList was order-controller
+2020-04-17 15:04:36.626 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method getList was order-controller
+2020-04-17 15:04:36.631 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: java.lang.String(true)
+2020-04-17 15:04:36.631 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key java.lang.String(true)
+2020-04-17 15:04:36.632 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: java.lang.String(true)
+2020-04-17 15:04:36.632 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key java.lang.String(true)
+2020-04-17 15:04:36.632 [main] INFO  s.documentation.spring.web.OperationsKeyGenerator - Cache key generated: /order/index.com.example.demo01.controller.OrderController.index.DefaultGenericTypeNamingStrategy
+2020-04-17 15:04:36.632 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache operations with key /order/index.com.example.demo01.controller.OrderController.index.DefaultGenericTypeNamingStrategy
+2020-04-17 15:04:36.633 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method index was order-controller
+2020-04-17 15:04:36.633 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method index was order-controller
+2020-04-17 15:04:36.637 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: java.lang.String(true)
+2020-04-17 15:04:36.637 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key java.lang.String(true)
+2020-04-17 15:04:36.637 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: java.lang.String(true)
+2020-04-17 15:04:36.637 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key java.lang.String(true)
+2020-04-17 15:04:36.637 [main] INFO  s.documentation.spring.web.OperationsKeyGenerator - Cache key generated: /api/download.com.example.demo01.controller.WhpxxszController.downloadFile.DefaultGenericTypeNamingStrategy
+2020-04-17 15:04:36.637 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache operations with key /api/download.com.example.demo01.controller.WhpxxszController.downloadFile.DefaultGenericTypeNamingStrategy
+2020-04-17 15:04:36.637 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method downloadFile was whpxxsz-controller
+2020-04-17 15:04:36.637 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method downloadFile was whpxxsz-controller
+2020-04-17 15:04:36.638 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: java.lang.Object(true)
+2020-04-17 15:04:36.638 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key java.lang.Object(true)
+2020-04-17 15:04:36.638 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: java.lang.Object(true)
+2020-04-17 15:04:36.638 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key java.lang.Object(true)
+2020-04-17 15:04:36.638 [main] INFO  s.documentation.spring.web.OperationsKeyGenerator - Cache key generated: /api/downloadWhpModel.com.example.demo01.controller.WhpxxszController.downloadModel.DefaultGenericTypeNamingStrategy
+2020-04-17 15:04:36.638 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache operations with key /api/downloadWhpModel.com.example.demo01.controller.WhpxxszController.downloadModel.DefaultGenericTypeNamingStrategy
+2020-04-17 15:04:36.639 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method downloadModel was whpxxsz-controller
+2020-04-17 15:04:36.639 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method downloadModel was whpxxsz-controller
+2020-04-17 15:04:36.640 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.example.demo01.utils.Download(true)
+2020-04-17 15:04:36.640 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key com.example.demo01.utils.Download(true)
+2020-04-17 15:04:36.640 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.example.demo01.utils.Download(true)
+2020-04-17 15:04:36.640 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.example.demo01.utils.Download(true)
+2020-04-17 15:04:36.641 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.example.demo01.utils.Download(true)
+2020-04-17 15:04:36.642 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key com.example.demo01.utils.Download(true)
+2020-04-17 15:04:36.642 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.example.demo01.utils.Download(true)
+2020-04-17 15:04:36.642 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.example.demo01.utils.Download(true)
+2020-04-17 15:04:36.642 [main] INFO  s.documentation.spring.web.OperationsKeyGenerator - Cache key generated: /api/downloadWhpModel01.com.example.demo01.controller.WhpxxszController.downloadModel01.DefaultGenericTypeNamingStrategy
+2020-04-17 15:04:36.642 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache operations with key /api/downloadWhpModel01.com.example.demo01.controller.WhpxxszController.downloadModel01.DefaultGenericTypeNamingStrategy
+2020-04-17 15:04:36.642 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method downloadModel01 was whpxxsz-controller
+2020-04-17 15:04:36.643 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method downloadModel01 was whpxxsz-controller
+2020-04-17 15:04:36.644 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: java.lang.String(true)
+2020-04-17 15:04:36.644 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key java.lang.String(true)
+2020-04-17 15:04:36.644 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: java.lang.String(true)
+2020-04-17 15:04:36.644 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key java.lang.String(true)
+2020-04-17 15:04:36.645 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.example.demo01.model.AdminLoginRequest(false)
+2020-04-17 15:04:36.645 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key com.example.demo01.model.AdminLoginRequest(false)
+2020-04-17 15:04:36.645 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.example.demo01.model.AdminLoginRequest(false)
+2020-04-17 15:04:36.645 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.example.demo01.model.AdminLoginRequest(false)
+2020-04-17 15:04:36.646 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.example.demo01.model.AdminLoginRequest(false)
+2020-04-17 15:04:36.646 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key com.example.demo01.model.AdminLoginRequest(false)
+2020-04-17 15:04:36.646 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.example.demo01.model.AdminLoginRequest(false)
+2020-04-17 15:04:36.646 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.example.demo01.model.AdminLoginRequest(false)
+2020-04-17 15:04:36.646 [main] INFO  s.documentation.spring.web.OperationsKeyGenerator - Cache key generated: /user/create.com.example.demo01.controller.LoginController.createSession.DefaultGenericTypeNamingStrategy
+2020-04-17 15:04:36.647 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache operations with key /user/create.com.example.demo01.controller.LoginController.createSession.DefaultGenericTypeNamingStrategy
+2020-04-17 15:04:36.647 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method createSession was 用户登录接口
+2020-04-17 15:04:36.648 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method createSession was 用户登录接口
+2020-04-17 15:04:36.648 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: java.lang.String(true)
+2020-04-17 15:04:36.649 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key java.lang.String(true)
+2020-04-17 15:04:36.649 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: java.lang.String(true)
+2020-04-17 15:04:36.649 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key java.lang.String(true)
+2020-04-17 15:04:36.649 [main] INFO  s.documentation.spring.web.OperationsKeyGenerator - Cache key generated: /user/view.com.example.demo01.controller.LoginController.getList.DefaultGenericTypeNamingStrategy
+2020-04-17 15:04:36.649 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache operations with key /user/view.com.example.demo01.controller.LoginController.getList.DefaultGenericTypeNamingStrategy
+2020-04-17 15:04:36.650 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method getList was 用户登录接口
+2020-04-17 15:04:36.651 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method getList was 用户登录接口
+2020-04-17 15:04:36.660 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+2020-04-17 15:04:36.677 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8090 (http) with context path ''
+2020-04-17 15:04:36.678 [main] INFO  com.example.demo01.Demo01Application - Started Demo01Application in 5.302 seconds (JVM running for 5.874)
+2020-04-17 15:09:25.697 [Thread-13] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-17 15:09:25.701 [Thread-13] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-04-17 15:09:25.704 [Thread-13] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2020-04-17 15:09:25.706 [Thread-13] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2020-04-17 15:09:28.127 [main] INFO  com.example.demo01.Demo01Application - Starting Demo01Application on DESKTOP-9CKSNF3 with PID 9980 (D:\demo01\target\classes started by Agrivo in D:\demo01)
+2020-04-17 15:09:28.129 [main] INFO  com.example.demo01.Demo01Application - No active profile set, falling back to default profiles: default
+2020-04-17 15:09:28.836 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-04-17 15:09:28.893 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 52ms. Found 2 repository interfaces.
+2020-04-17 15:09:29.114 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'shiroConfig' of type [com.example.demo01.shiro.ShiroConfig$$EnhancerBySpringCGLIB$$8ade6bfa] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-17 15:09:29.315 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'myRealm' of type [com.example.demo01.shiro.ShiroRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-17 15:09:29.318 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-17 15:09:29.340 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-17 15:09:29.376 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4c4de378] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-17 15:09:29.448 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$cbce30aa] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-17 15:09:29.797 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
+2020-04-17 15:09:29.806 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+2020-04-17 15:09:29.812 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-17 15:09:29.812 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.14]
+2020-04-17 15:09:29.816 [main] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_161\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Java\jdk1.8.0_161\bin;D:\Java\apache-maven-3.3.9\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\MySQL\MySQL Server 5.5\bin;C:\Program Files\TortoiseSVN\bin;C:\Users\Agrivo\AppData\Local\Microsoft\WindowsApps;;.]
+2020-04-17 15:09:29.901 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-04-17 15:09:29.901 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1734 ms
+2020-04-17 15:09:30.065 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2020-04-17 15:09:30.073 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-04-17 15:09:47.158 [main] INFO  com.example.demo01.Demo01Application - Starting Demo01Application on DESKTOP-9CKSNF3 with PID 4984 (D:\demo01\target\classes started by Agrivo in D:\demo01)
+2020-04-17 15:09:47.161 [main] INFO  com.example.demo01.Demo01Application - No active profile set, falling back to default profiles: default
+2020-04-17 15:09:47.818 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-04-17 15:09:47.875 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 52ms. Found 2 repository interfaces.
+2020-04-17 15:09:48.093 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'shiroConfig' of type [com.example.demo01.shiro.ShiroConfig$$EnhancerBySpringCGLIB$$15b48a0e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-17 15:09:48.296 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'myRealm' of type [com.example.demo01.shiro.ShiroRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-17 15:09:48.300 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-17 15:09:48.323 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-17 15:09:48.361 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d724018c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-17 15:09:48.437 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$56a44ebe] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-17 15:09:48.782 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
+2020-04-17 15:09:48.792 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+2020-04-17 15:09:48.797 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-17 15:09:48.798 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.14]
+2020-04-17 15:09:48.802 [main] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_161\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Java\jdk1.8.0_161\bin;D:\Java\apache-maven-3.3.9\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\MySQL\MySQL Server 5.5\bin;C:\Program Files\TortoiseSVN\bin;C:\Users\Agrivo\AppData\Local\Microsoft\WindowsApps;;.]
+2020-04-17 15:09:48.889 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-04-17 15:09:48.889 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1698 ms
+2020-04-17 15:09:49.051 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2020-04-17 15:09:49.059 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-04-17 15:10:38.187 [main] INFO  com.example.demo01.Demo01Application - Starting Demo01Application on DESKTOP-9CKSNF3 with PID 16124 (D:\demo01\target\classes started by Agrivo in D:\demo01)
+2020-04-17 15:10:38.189 [main] INFO  com.example.demo01.Demo01Application - No active profile set, falling back to default profiles: default
+2020-04-17 15:10:38.856 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-04-17 15:10:38.913 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 53ms. Found 2 repository interfaces.
+2020-04-17 15:10:39.133 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'shiroConfig' of type [com.example.demo01.shiro.ShiroConfig$$EnhancerBySpringCGLIB$$e5d4c35c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-17 15:10:39.333 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'myRealm' of type [com.example.demo01.shiro.ShiroRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-17 15:10:39.336 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-17 15:10:39.356 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-17 15:10:39.393 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a7443ada] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-17 15:10:39.467 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$26c4880c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-17 15:10:39.820 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
+2020-04-17 15:10:39.829 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+2020-04-17 15:10:39.835 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-17 15:10:39.835 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.14]
+2020-04-17 15:10:39.840 [main] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_161\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Java\jdk1.8.0_161\bin;D:\Java\apache-maven-3.3.9\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\MySQL\MySQL Server 5.5\bin;C:\Program Files\TortoiseSVN\bin;C:\Users\Agrivo\AppData\Local\Microsoft\WindowsApps;;.]
+2020-04-17 15:10:39.926 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-04-17 15:10:39.927 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1708 ms
+2020-04-17 15:10:40.090 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2020-04-17 15:10:40.098 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-04-17 15:11:17.546 [main] INFO  com.example.demo01.Demo01Application - Starting Demo01Application on DESKTOP-9CKSNF3 with PID 5504 (D:\demo01\target\classes started by Agrivo in D:\demo01)
+2020-04-17 15:11:17.548 [main] INFO  com.example.demo01.Demo01Application - No active profile set, falling back to default profiles: default
+2020-04-17 15:11:18.228 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-04-17 15:11:18.285 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 52ms. Found 2 repository interfaces.
+2020-04-17 15:11:18.502 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'shiroConfig' of type [com.example.demo01.shiro.ShiroConfig$$EnhancerBySpringCGLIB$$9f987032] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-17 15:11:18.701 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'myRealm' of type [com.example.demo01.shiro.ShiroRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-17 15:11:18.704 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-17 15:11:18.726 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-17 15:11:18.762 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$6107e7b0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-17 15:11:18.836 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$e08834e2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-17 15:11:19.184 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
+2020-04-17 15:11:19.194 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+2020-04-17 15:11:19.200 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-17 15:11:19.200 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.14]
+2020-04-17 15:11:19.204 [main] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_161\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Java\jdk1.8.0_161\bin;D:\Java\apache-maven-3.3.9\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\MySQL\MySQL Server 5.5\bin;C:\Program Files\TortoiseSVN\bin;C:\Users\Agrivo\AppData\Local\Microsoft\WindowsApps;;.]
+2020-04-17 15:11:19.296 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-04-17 15:11:19.296 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1717 ms
+2020-04-17 15:11:19.465 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2020-04-17 15:11:19.472 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-04-17 15:11:37.198 [main] INFO  com.example.demo01.Demo01Application - Starting Demo01Application on DESKTOP-9CKSNF3 with PID 8800 (D:\demo01\target\classes started by Agrivo in D:\demo01)
+2020-04-17 15:11:37.201 [main] INFO  com.example.demo01.Demo01Application - No active profile set, falling back to default profiles: default
+2020-04-17 15:11:37.877 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-04-17 15:11:37.935 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 53ms. Found 2 repository interfaces.
+2020-04-17 15:11:38.152 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'shiroConfig' of type [com.example.demo01.shiro.ShiroConfig$$EnhancerBySpringCGLIB$$2181153c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-17 15:11:38.353 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'myRealm' of type [com.example.demo01.shiro.ShiroRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-17 15:11:38.357 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-17 15:11:38.379 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-17 15:11:38.416 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e2f08cba] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-17 15:11:38.488 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$6270d9ec] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-17 15:11:38.830 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
+2020-04-17 15:11:38.840 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+2020-04-17 15:11:38.844 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-17 15:11:38.844 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.14]
+2020-04-17 15:11:38.849 [main] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_161\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Java\jdk1.8.0_161\bin;D:\Java\apache-maven-3.3.9\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\MySQL\MySQL Server 5.5\bin;C:\Program Files\TortoiseSVN\bin;C:\Users\Agrivo\AppData\Local\Microsoft\WindowsApps;;.]
+2020-04-17 15:11:38.938 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-04-17 15:11:38.938 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1705 ms
+2020-04-17 15:11:39.104 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2020-04-17 15:11:39.112 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-04-17 15:12:11.043 [main] INFO  com.example.demo01.Demo01Application - Starting Demo01Application on DESKTOP-9CKSNF3 with PID 11512 (D:\demo01\target\classes started by Agrivo in D:\demo01)
+2020-04-17 15:12:11.046 [main] INFO  com.example.demo01.Demo01Application - No active profile set, falling back to default profiles: default
+2020-04-17 15:12:11.825 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-04-17 15:12:11.881 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 51ms. Found 2 repository interfaces.
+2020-04-17 15:12:12.096 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'shiroConfig' of type [com.example.demo01.shiro.ShiroConfig$$EnhancerBySpringCGLIB$$ab1dd0d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-17 15:12:12.301 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'myRealm' of type [com.example.demo01.shiro.ShiroRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-17 15:12:12.305 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-17 15:12:12.328 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-17 15:12:12.367 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$cc21548b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-17 15:12:12.447 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$4ba1a1bd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-17 15:12:12.800 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
+2020-04-17 15:12:12.809 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+2020-04-17 15:12:12.815 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-17 15:12:12.815 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.14]
+2020-04-17 15:12:12.819 [main] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_161\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Java\jdk1.8.0_161\bin;D:\Java\apache-maven-3.3.9\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\MySQL\MySQL Server 5.5\bin;C:\Program Files\TortoiseSVN\bin;C:\Users\Agrivo\AppData\Local\Microsoft\WindowsApps;;.]
+2020-04-17 15:12:12.905 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-04-17 15:12:12.906 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1826 ms
+2020-04-17 15:12:13.068 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2020-04-17 15:12:13.076 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-04-17 15:13:06.854 [main] INFO  com.example.demo01.Demo01Application - Starting Demo01Application on DESKTOP-9CKSNF3 with PID 1068 (D:\demo01\target\classes started by Agrivo in D:\demo01)
+2020-04-17 15:13:06.857 [main] INFO  com.example.demo01.Demo01Application - No active profile set, falling back to default profiles: default
+2020-04-17 15:13:07.571 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-04-17 15:13:07.629 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 54ms. Found 2 repository interfaces.
+2020-04-17 15:13:07.869 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'shiroConfig' of type [com.example.demo01.shiro.ShiroConfig$$EnhancerBySpringCGLIB$$a61c339b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-17 15:13:08.074 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'myRealm' of type [com.example.demo01.shiro.ShiroRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-17 15:13:08.077 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-17 15:13:08.100 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-17 15:13:08.138 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$678bab19] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-17 15:13:08.211 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$e70bf84b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-17 15:13:08.616 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
+2020-04-17 15:13:08.630 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+2020-04-17 15:13:08.638 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-17 15:13:08.638 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.14]
+2020-04-17 15:13:08.643 [main] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_161\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Java\jdk1.8.0_161\bin;D:\Java\apache-maven-3.3.9\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\MySQL\MySQL Server 5.5\bin;C:\Program Files\TortoiseSVN\bin;C:\Users\Agrivo\AppData\Local\Microsoft\WindowsApps;;.]
+2020-04-17 15:13:08.743 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-04-17 15:13:08.743 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1849 ms
+2020-04-17 15:13:08.910 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2020-04-17 15:13:08.918 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-04-17 15:36:02.597 [main] INFO  com.example.demo01.Demo01Application - Starting Demo01Application on DESKTOP-9CKSNF3 with PID 5476 (D:\demo01\target\classes started by Agrivo in D:\demo01)
+2020-04-17 15:36:02.599 [main] INFO  com.example.demo01.Demo01Application - No active profile set, falling back to default profiles: default
+2020-04-17 15:36:03.273 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-04-17 15:36:03.333 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 54ms. Found 2 repository interfaces.
+2020-04-17 15:36:03.549 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'shiroConfig' of type [com.example.demo01.shiro.ShiroConfig$$EnhancerBySpringCGLIB$$d81ba501] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-17 15:36:03.749 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'myRealm' of type [com.example.demo01.shiro.ShiroRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-17 15:36:03.752 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-17 15:36:03.774 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-17 15:36:03.811 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$998b1c7f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-17 15:36:03.884 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$190b69b1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-17 15:36:04.231 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
+2020-04-17 15:36:04.241 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+2020-04-17 15:36:04.247 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-17 15:36:04.247 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.14]
+2020-04-17 15:36:04.251 [main] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_161\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Java\jdk1.8.0_161\bin;D:\Java\apache-maven-3.3.9\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\MySQL\MySQL Server 5.5\bin;C:\Program Files\TortoiseSVN\bin;C:\Users\Agrivo\AppData\Local\Microsoft\WindowsApps;;.]
+2020-04-17 15:36:04.342 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-04-17 15:36:04.342 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1708 ms
+2020-04-17 15:36:04.510 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2020-04-17 15:36:04.517 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-04-17 15:44:27.303 [main] INFO  com.example.demo01.Demo01Application - Starting Demo01Application on DESKTOP-9CKSNF3 with PID 15248 (D:\demo01\target\classes started by Agrivo in D:\demo01)
+2020-04-17 15:44:27.305 [main] INFO  com.example.demo01.Demo01Application - No active profile set, falling back to default profiles: default
+2020-04-17 15:44:28.215 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-04-17 15:44:28.282 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 61ms. Found 2 repository interfaces.
+2020-04-17 15:44:28.502 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'shiroConfig' of type [com.example.demo01.shiro.ShiroConfig$$EnhancerBySpringCGLIB$$c77125b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-17 15:44:28.705 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'myRealm' of type [com.example.demo01.shiro.ShiroRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-17 15:44:28.709 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-17 15:44:28.730 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-17 15:44:28.767 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$cde689d9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-17 15:44:28.840 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$4d66d70b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-17 15:44:29.532 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
+2020-04-17 15:44:29.544 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+2020-04-17 15:44:29.551 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-17 15:44:29.551 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.14]
+2020-04-17 15:44:29.556 [main] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_161\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Java\jdk1.8.0_161\bin;D:\Java\apache-maven-3.3.9\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\MySQL\MySQL Server 5.5\bin;C:\Program Files\TortoiseSVN\bin;C:\Users\Agrivo\AppData\Local\Microsoft\WindowsApps;;.]
+2020-04-17 15:44:29.657 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-04-17 15:44:29.657 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2313 ms
+2020-04-17 15:44:29.848 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2020-04-17 15:44:29.856 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-04-17 15:45:28.019 [main] INFO  com.example.demo01.Demo01Application - Starting Demo01Application on DESKTOP-9CKSNF3 with PID 11372 (D:\demo01\target\classes started by Agrivo in D:\demo01)
+2020-04-17 15:45:28.022 [main] INFO  com.example.demo01.Demo01Application - No active profile set, falling back to default profiles: default
+2020-04-17 15:45:28.740 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-04-17 15:45:28.815 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 68ms. Found 2 repository interfaces.
+2020-04-17 15:45:29.020 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'shiroConfig' of type [com.example.demo01.shiro.ShiroConfig$$EnhancerBySpringCGLIB$$890e7a6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-17 15:45:29.224 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'myRealm' of type [com.example.demo01.shiro.ShiroRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-17 15:45:29.227 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-17 15:45:29.249 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-17 15:45:29.285 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ca005f24] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-17 15:45:29.358 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$4980ac56] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-17 15:45:29.701 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
+2020-04-17 15:45:29.711 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+2020-04-17 15:45:29.717 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-17 15:45:29.717 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.14]
+2020-04-17 15:45:29.722 [main] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_161\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Java\jdk1.8.0_161\bin;D:\Java\apache-maven-3.3.9\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\MySQL\MySQL Server 5.5\bin;C:\Program Files\TortoiseSVN\bin;C:\Users\Agrivo\AppData\Local\Microsoft\WindowsApps;;.]
+2020-04-17 15:45:29.806 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-04-17 15:45:29.806 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1749 ms
+2020-04-17 15:45:29.991 [main] INFO  org.flywaydb.core.internal.license.VersionPrinter - Flyway Community Edition 5.2.4 by Boxfuse
+2020-04-17 15:45:29.993 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-04-17 15:45:30.074 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-04-17 15:45:30.076 [main] INFO  o.flywaydb.core.internal.database.DatabaseFactory - Database: jdbc:mysql://127.0.0.1:3306/shiro_test (MySQL 5.5)
+2020-04-17 15:45:30.138 [main] INFO  org.flywaydb.core.internal.command.DbValidate - Successfully validated 0 migrations (execution time 00:00.004s)
+2020-04-17 15:45:30.280 [main] INFO  o.f.c.i.schemahistory.JdbcTableSchemaHistory - Creating Schema History table: `shiro_test`.`flyway_schema_history`
+2020-04-17 15:45:30.810 [main] INFO  org.flywaydb.core.internal.command.DbBaseline - Successfully baselined schema with version: 20180101
+2020-04-17 15:45:30.818 [main] INFO  org.flywaydb.core.internal.command.DbMigrate - Current version of schema `shiro_test`: 20180101
+2020-04-17 15:45:30.818 [main] INFO  org.flywaydb.core.internal.command.DbMigrate - Schema `shiro_test` is up to date. No migration necessary.
+2020-04-17 15:45:30.917 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-04-17 15:45:30.964 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.3.7.Final}
+2020-04-17 15:45:30.965 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2020-04-17 15:45:31.065 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2020-04-17 15:45:31.178 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-04-17 15:45:32.674 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-17 15:45:33.979 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-17 15:45:34.085 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2020-04-17 15:45:34.356 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-04-17 15:45:34.368 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found {0} custom documentation plugin(s)
+2020-04-17 15:45:34.374 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-04-17 15:45:34.376 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method downloadModel01 was whpxxsz-controller
+2020-04-17 15:45:34.377 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Request mapping: downloadModel01 belongs to groups: [[ResourceGroup{groupName='whpxxsz-controller', position=0, controller=com.example.demo01.controller.WhpxxszController}]] 
+2020-04-17 15:45:34.378 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method downloadModel was whpxxsz-controller
+2020-04-17 15:45:34.378 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Request mapping: downloadModel belongs to groups: [[ResourceGroup{groupName='whpxxsz-controller', position=0, controller=com.example.demo01.controller.WhpxxszController}]] 
+2020-04-17 15:45:34.378 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method downloadFile was whpxxsz-controller
+2020-04-17 15:45:34.379 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Request mapping: downloadFile belongs to groups: [[ResourceGroup{groupName='whpxxsz-controller', position=0, controller=com.example.demo01.controller.WhpxxszController}]] 
+2020-04-17 15:45:34.379 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method getList was order-controller
+2020-04-17 15:45:34.379 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Request mapping: getList belongs to groups: [[ResourceGroup{groupName='order-controller', position=0, controller=com.example.demo01.controller.OrderController}]] 
+2020-04-17 15:45:34.379 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method index was order-controller
+2020-04-17 15:45:34.379 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Request mapping: index belongs to groups: [[ResourceGroup{groupName='order-controller', position=0, controller=com.example.demo01.controller.OrderController}]] 
+2020-04-17 15:45:34.380 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method createSession was 用户登录接口
+2020-04-17 15:45:34.381 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Request mapping: createSession belongs to groups: [[ResourceGroup{groupName='用户登录接口', position=0, controller=com.example.demo01.controller.LoginController}]] 
+2020-04-17 15:45:34.381 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method getList was 用户登录接口
+2020-04-17 15:45:34.381 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Request mapping: getList belongs to groups: [[ResourceGroup{groupName='用户登录接口', position=0, controller=com.example.demo01.controller.LoginController}]] 
+2020-04-17 15:45:34.383 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Created resource listing Path: /default/whpxxsz-controller Description: whpxxsz-controller Position: 0
+2020-04-17 15:45:34.384 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Created resource listing Path: /default/order-controller Description: order-controller Position: 0
+2020-04-17 15:45:34.385 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Created resource listing Path: /default/用户登录接口 Description: 用户登录接口 Position: 0
+2020-04-17 15:45:34.401 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.example.demo01.page.Pagination<com.example.demo01.model.OrderBo>(true)
+2020-04-17 15:45:34.401 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key com.example.demo01.page.Pagination<com.example.demo01.model.OrderBo>(true)
+2020-04-17 15:45:34.405 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.example.demo01.page.Pagination<com.example.demo01.model.OrderBo>(true)
+2020-04-17 15:45:34.405 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.example.demo01.page.Pagination<com.example.demo01.model.OrderBo>(true)
+2020-04-17 15:45:34.429 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.example.demo01.page.Pagination<com.example.demo01.model.OrderBo>(true)
+2020-04-17 15:45:34.429 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key com.example.demo01.page.Pagination<com.example.demo01.model.OrderBo>(true)
+2020-04-17 15:45:34.431 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.example.demo01.model.OrderBo(true)
+2020-04-17 15:45:34.431 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.example.demo01.model.OrderBo(true)
+2020-04-17 15:45:34.437 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.example.demo01.page.Pagination<com.example.demo01.model.OrderBo>(true)
+2020-04-17 15:45:34.437 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.example.demo01.page.Pagination<com.example.demo01.model.OrderBo>(true)
+2020-04-17 15:45:34.438 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.example.demo01.model.OrderBo(true)
+2020-04-17 15:45:34.438 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.example.demo01.model.OrderBo(true)
+2020-04-17 15:45:34.438 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.example.demo01.model.OrderBo(true)
+2020-04-17 15:45:34.438 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.example.demo01.model.OrderBo(true)
+2020-04-17 15:45:34.439 [main] INFO  s.documentation.spring.web.OperationsKeyGenerator - Cache key generated: /order/detail.com.example.demo01.controller.OrderController.getList.DefaultGenericTypeNamingStrategy
+2020-04-17 15:45:34.439 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache operations with key /order/detail.com.example.demo01.controller.OrderController.getList.DefaultGenericTypeNamingStrategy
+2020-04-17 15:45:34.452 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method getList was order-controller
+2020-04-17 15:45:34.460 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method getList was order-controller
+2020-04-17 15:45:34.466 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: java.lang.String(true)
+2020-04-17 15:45:34.466 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key java.lang.String(true)
+2020-04-17 15:45:34.466 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: java.lang.String(true)
+2020-04-17 15:45:34.466 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key java.lang.String(true)
+2020-04-17 15:45:34.466 [main] INFO  s.documentation.spring.web.OperationsKeyGenerator - Cache key generated: /order/index.com.example.demo01.controller.OrderController.index.DefaultGenericTypeNamingStrategy
+2020-04-17 15:45:34.467 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache operations with key /order/index.com.example.demo01.controller.OrderController.index.DefaultGenericTypeNamingStrategy
+2020-04-17 15:45:34.467 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method index was order-controller
+2020-04-17 15:45:34.468 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method index was order-controller
+2020-04-17 15:45:34.471 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: java.lang.String(true)
+2020-04-17 15:45:34.471 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key java.lang.String(true)
+2020-04-17 15:45:34.472 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: java.lang.String(true)
+2020-04-17 15:45:34.472 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key java.lang.String(true)
+2020-04-17 15:45:34.472 [main] INFO  s.documentation.spring.web.OperationsKeyGenerator - Cache key generated: /api/download.com.example.demo01.controller.WhpxxszController.downloadFile.DefaultGenericTypeNamingStrategy
+2020-04-17 15:45:34.472 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache operations with key /api/download.com.example.demo01.controller.WhpxxszController.downloadFile.DefaultGenericTypeNamingStrategy
+2020-04-17 15:45:34.472 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method downloadFile was whpxxsz-controller
+2020-04-17 15:45:34.473 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method downloadFile was whpxxsz-controller
+2020-04-17 15:45:34.473 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: java.lang.Object(true)
+2020-04-17 15:45:34.473 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key java.lang.Object(true)
+2020-04-17 15:45:34.473 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: java.lang.Object(true)
+2020-04-17 15:45:34.473 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key java.lang.Object(true)
+2020-04-17 15:45:34.474 [main] INFO  s.documentation.spring.web.OperationsKeyGenerator - Cache key generated: /api/downloadWhpModel.com.example.demo01.controller.WhpxxszController.downloadModel.DefaultGenericTypeNamingStrategy
+2020-04-17 15:45:34.474 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache operations with key /api/downloadWhpModel.com.example.demo01.controller.WhpxxszController.downloadModel.DefaultGenericTypeNamingStrategy
+2020-04-17 15:45:34.474 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method downloadModel was whpxxsz-controller
+2020-04-17 15:45:34.475 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method downloadModel was whpxxsz-controller
+2020-04-17 15:45:34.475 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.example.demo01.utils.Download(true)
+2020-04-17 15:45:34.475 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key com.example.demo01.utils.Download(true)
+2020-04-17 15:45:34.475 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.example.demo01.utils.Download(true)
+2020-04-17 15:45:34.475 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.example.demo01.utils.Download(true)
+2020-04-17 15:45:34.477 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.example.demo01.utils.Download(true)
+2020-04-17 15:45:34.477 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key com.example.demo01.utils.Download(true)
+2020-04-17 15:45:34.477 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.example.demo01.utils.Download(true)
+2020-04-17 15:45:34.477 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.example.demo01.utils.Download(true)
+2020-04-17 15:45:34.477 [main] INFO  s.documentation.spring.web.OperationsKeyGenerator - Cache key generated: /api/downloadWhpModel01.com.example.demo01.controller.WhpxxszController.downloadModel01.DefaultGenericTypeNamingStrategy
+2020-04-17 15:45:34.477 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache operations with key /api/downloadWhpModel01.com.example.demo01.controller.WhpxxszController.downloadModel01.DefaultGenericTypeNamingStrategy
+2020-04-17 15:45:34.478 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method downloadModel01 was whpxxsz-controller
+2020-04-17 15:45:34.478 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method downloadModel01 was whpxxsz-controller
+2020-04-17 15:45:34.480 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: java.lang.String(true)
+2020-04-17 15:45:34.480 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key java.lang.String(true)
+2020-04-17 15:45:34.480 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: java.lang.String(true)
+2020-04-17 15:45:34.480 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key java.lang.String(true)
+2020-04-17 15:45:34.480 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.example.demo01.model.AdminLoginRequest(false)
+2020-04-17 15:45:34.480 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key com.example.demo01.model.AdminLoginRequest(false)
+2020-04-17 15:45:34.480 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.example.demo01.model.AdminLoginRequest(false)
+2020-04-17 15:45:34.480 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.example.demo01.model.AdminLoginRequest(false)
+2020-04-17 15:45:34.481 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.example.demo01.model.AdminLoginRequest(false)
+2020-04-17 15:45:34.482 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key com.example.demo01.model.AdminLoginRequest(false)
+2020-04-17 15:45:34.482 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.example.demo01.model.AdminLoginRequest(false)
+2020-04-17 15:45:34.482 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.example.demo01.model.AdminLoginRequest(false)
+2020-04-17 15:45:34.482 [main] INFO  s.documentation.spring.web.OperationsKeyGenerator - Cache key generated: /user/create.com.example.demo01.controller.LoginController.createSession.DefaultGenericTypeNamingStrategy
+2020-04-17 15:45:34.482 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache operations with key /user/create.com.example.demo01.controller.LoginController.createSession.DefaultGenericTypeNamingStrategy
+2020-04-17 15:45:34.483 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method createSession was 用户登录接口
+2020-04-17 15:45:34.483 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method createSession was 用户登录接口
+2020-04-17 15:45:34.484 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: java.lang.String(true)
+2020-04-17 15:45:34.484 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key java.lang.String(true)
+2020-04-17 15:45:34.484 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: java.lang.String(true)
+2020-04-17 15:45:34.484 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key java.lang.String(true)
+2020-04-17 15:45:34.484 [main] INFO  s.documentation.spring.web.OperationsKeyGenerator - Cache key generated: /user/view.com.example.demo01.controller.LoginController.getList.DefaultGenericTypeNamingStrategy
+2020-04-17 15:45:34.485 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache operations with key /user/view.com.example.demo01.controller.LoginController.getList.DefaultGenericTypeNamingStrategy
+2020-04-17 15:45:34.485 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method getList was 用户登录接口
+2020-04-17 15:45:34.486 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method getList was 用户登录接口
+2020-04-17 15:45:34.495 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+2020-04-17 15:45:34.512 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8090 (http) with context path ''
+2020-04-17 15:45:34.513 [main] INFO  com.example.demo01.Demo01Application - Started Demo01Application in 6.931 seconds (JVM running for 7.544)
+2020-04-17 16:14:42.195 [Thread-16] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-17 16:14:42.206 [Thread-16] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-04-17 16:14:42.214 [Thread-16] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2020-04-17 16:14:42.218 [Thread-16] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

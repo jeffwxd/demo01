@@ -147,6 +147,18 @@
             <artifactId>mybatis-plus-generator</artifactId>
             <version>3.2.0</version>
         </dependency>
+<!--        &lt;!&ndash;数据库版本管理工具- -->
+        <dependency>
+            <groupId>org.flywaydb</groupId>
+            <artifactId>flyway-core</artifactId>
+            <version>5.2.4</version>
+        </dependency>
+<!--pagehelper的使用-->
+        <dependency>
+            <groupId>com.github.pagehelper</groupId>
+            <artifactId>pagehelper-spring-boot-starter</artifactId>
+            <version>1.2.10</version>
+        </dependency>
 
     </dependencies>
 
@@ -158,6 +170,18 @@
                 <configuration>
                     <mainClass>com.example.demo01.Demo01Application</mainClass>
                 </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.flywaydb</groupId>
+                <artifactId>flyway-maven-plugin</artifactId>
+                <version>5.0.3</version>
+<!--                <configuration>-->
+<!--                    <user>${dbuser}</user>-->
+<!--                    <password>${dbpwd}</password>-->
+<!--                    <driver>com.mysql.cj.jdbc.Driver</driver>-->
+<!--                    <url>jdbc:mysql://${dbhost}:${dbport}/${dbname}?characterEncoding=utf8</url>-->
+<!--                    <table>flyway_schema_history</table>-->
+<!--                </configuration>-->
             </plugin>
         </plugins>
     </build>
